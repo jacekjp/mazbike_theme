@@ -1,0 +1,53 @@
+/*Contact Section*/
+.contact > div {
+  max-width: 1024px;
+}
+.contact p {
+  margin-bottom: 20px;
+}
+.contact p.attention {
+  font-weight: bold;
+}
+.contact hr {
+  margin: 0 auto 50px auto;
+}
+.contact form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+}
+.contact form .contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+}
+.contact form .contact-column {
+  min-width: 320px;
+  margin: 0 5px;
+  width: 100%;
+  flex: 2;
+}
+.contact input,
+.contact textarea {
+  padding: 15px;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  color: #555;
+  flex: 1;
+  width: 100%;
+}
+.contact input.btn {
+  color: #fff;
+  width: auto;
+}
+@media (max-width: 1000px) {
+  .contact form {
+    /*width: 80%;*/
+  }
+}

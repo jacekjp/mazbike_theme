@@ -1,0 +1,77 @@
+/*Contact Section*/
+
+.contact {
+  >div {
+    max-width: 1024px;
+//    > div {
+//      padding: 0 20px;
+//    }
+  }
+  p {
+//    text-align: center;
+    margin-bottom: 20px;
+    &.attention{
+      font-weight: bold;
+    }
+    .btn {
+      background-color: @mazbike-violet;
+      cursor: pointer;
+    }
+  }
+  hr {
+    margin: 0 auto 50px auto;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    .contact-row{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      flex-direction: row;
+    }
+    .contact-column{
+      min-width: 320px;
+      margin: 0 5px;
+      width: 100%;
+      flex: 2;
+    }
+  }
+  input, textarea {
+    padding: 15px;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    color: #555;
+    flex: 1;
+    width: 100%;
+  }
+  input {
+    &.btn{
+      color: #fff;
+      width: auto;
+    }
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .contact form {
+    padding: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact  {
+    p {
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+}

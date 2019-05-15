@@ -1,0 +1,145 @@
+
+// https://colorschemedesigner.com/csd-3.5/#2i31ToUkow0w0
+@mazbike-light: #AACC55;
+@mazbike-classic: #779922;
+@mazbike-violet: #4c1e6d;
+
+
+@mazbike-main: @mazbike-classic;
+@white-color: #ffffff;
+@grey-background-color: #f5f5f5;
+//@grey-background-color: #b3cc75;
+@font-grey: #535353;
+.black-opacity(@opacity) {
+  background-color: rgba(0, 0, 0, @opacity);
+}
+
+
+@montserrat: "Montserrat", sans-serif;
+
+// na podstawie https://webwavecms.com/blog/nie_uzywaj_comic_sans_czyli_10_krokow_do_lepszego_wygladu_tekstu_na_stronie
+@h1: 42px; //42 (48)
+@h2: 36px; //26
+@h3: 28px; //20
+@normal-text: 16px; //16 (20)
+
+@h1-mobile: 32px; //32
+@h2-mobile: 26px; //24
+@h3-mobile: 22px; //18
+@normal-text-mobile: 20px; //16
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: @mazbike-main auto 5px;
+  outline-color: @mazbike-main;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+h1 {
+  font-size: @h1;
+  font-weight: normal;
+}
+h2 {
+  font-size: @h2;
+  font-weight: normal;
+}
+h3{
+  font-size: @h3;
+  font-weight: normal;
+}
+
+ul,
+nav {
+  list-style: none;
+  line-height: 1.5;
+}
+
+ul ul {
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  /*opacity: 0.75;*/
+  color: #792;
+}
+
+button {
+  color: #fff;
+}
+
+.btn-violet {
+  a {
+    background-color: @mazbike-violet;
+  }
+}
+
+h1, h2, h3, h1 a, h2 a, h3 a {
+  color: #792;
+}
+
+a:hover {
+  /*opacity: 1;*/
+}
+
+input, textarea, select, button {
+  font-family: @montserrat;
+}
+
+input {
+  padding: 15px;
+}
+
+html {
+  /*font: normal 16px sans-serif;*/
+  font: normal @normal-text @montserrat;
+  color: @font-grey;
+  min-width: 320px; 
+}
+body {
+  background: @white-color;
+}
+
+.main {
+    height: auto;
+    width: auto;
+  .black-opacity(0.5);
+}
+
+button, .button, .btn {
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  background-color: @mazbike-main;
+  opacity: 1;
+  padding: 18px 42px;
+  color: @white-color;
+  cursor: pointer;
+}
+
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+@import url("general.less");
+@import url("main-page.less");
+@import url("about.less");
+@import url("contact.less");
+@import url("header.less");
+@import url("pagination.less");
+@import url("comments.less");
+@import url("pages.less");
+@import url("sidebar.less");
+@import url("season-menu.less");
+@import url("components.less");

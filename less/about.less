@@ -1,0 +1,79 @@
+/*About Section*/
+
+.about{
+  h2{
+    margin-bottom: 30px;
+    text-align: center;
+    img.logo{
+      max-width: 250px;
+    }
+  }
+  >div, >ul {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .info {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .mazbike-image {
+      min-width: 200px;
+      width: 200px;
+      height: 200px;
+//      border-radius: 100px;
+      margin: 0 auto 20px auto;
+      background-size: cover;
+    }
+    .i {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 2;
+      margin: 0 0 25px;
+      text-align: left;
+      flex: 1;
+    }
+
+  }
+
+  .grid {
+    margin-top: 30px;
+    max-width: 400px;
+    li {
+      padding: 23px;
+      text-align: center;
+      color: #792;
+      flex: 1 1 auto;
+      font-weight: bold;
+      i {
+        color: #792;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+    }
+  }
+
+}
+
+
+@media (max-width: 800px) {
+  .about .info {
+    font-size: 18px;
+    margin: 15px;
+  }
+  .about .grid li {
+    /*        flex-basis: 100%;*/
+  }
+
+}
+
+@media (max-width: 600px) {
+  .about .info {
+    flex-direction: column;
+  }
+  .about .grid li {
+    /*        flex-basis: 100%;*/
+  }
+
+}

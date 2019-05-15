@@ -1,0 +1,140 @@
+header.header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  /*animation: 1s fadein 0.5s forwards;*/
+  .black-opacity(0.5);
+  z-index: 10;
+  a {
+    color: @white-color;
+    /*font-family: rewir;*/
+//    font-family: verdana;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-size: 18px;
+    font-weight: bold;
+    display: grid;
+  }
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    a {
+      font-family: Apropal;
+      font-size: 27px;
+      img {
+        width: 360px;
+      }
+    }
+  }
+
+  #toggle {
+    cursor: pointer;
+    i {
+      color: @white-color;
+      font-size: 26px;
+    }
+  }
+
+  nav {
+    ul#main-nav {
+      display: flex;
+      margin-right: -15px;
+      li {
+        margin: 0 15px;
+        &:hover{
+          ul.sub-menu{
+            display: block;
+          }
+        }
+      }
+      ul.sub-menu{
+        display: none;
+        position: absolute;
+        padding: 8px 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        li {
+          padding: 5px;
+        }
+      }
+    }
+  }
+
+
+}
+@media screen and (min-width: 1025px) {
+  #toggle {
+    display:none;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  body.admin-bar {
+    #popout {
+      top: 46px;
+    }
+  }
+  header.header {
+   padding: 20px 50px;
+//    flex-direction: column;
+    h2 {
+//      margin-bottom: 15px;
+    }
+    #toggle {
+      float: right;
+//      position: fixed;
+      top: 60px;
+      right: 45px;
+      width: 28px;
+      height: 24px;
+
+    }
+    #popout {
+      position: fixed;
+      height: 100%;
+      width: 250px;
+      background: #333;
+//      background: rgba(25, 25, 25, .9);
+      color: white;
+      top: 0px;
+      left: -250px;
+      overflow:auto;
+      .nav-menu {
+        flex-direction: column;
+        li {
+          border-bottom:1px solid #eee;
+          padding:20px;
+          width:100%;
+          &:hover{
+            >a {
+              color: @mazbike-main;
+            }
+          }
+          a {
+            color:#FFF;
+            text-decoration:none;
+            width:100%;
+          }
+          ul.sub-menu{
+            background-color: #333;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  header.header {
+      padding: 20px 10px;
+      h2 {
+        a{
+          img{
+            width: 260px;
+          }
+        }
+      }
+  }
+}

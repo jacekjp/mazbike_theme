@@ -1,0 +1,21 @@
+.menu-sezony-container ul,
+.menu-footer-container ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.menu-sezony-container ul li,
+.menu-footer-container ul li {
+  margin: 0 5px 0 0;
+}
+.menu-sezony-container ul li:not(:last-child)::after,
+.menu-footer-container ul li:not(:last-child)::after {
+  content: " | ";
+}
+.page-id-19 .menu-sezony-container {
+  padding: 0 20px;
+}
+.seasons-menu {
+  font-size: 1.2em;
+  margin: 15px auto;
+}
