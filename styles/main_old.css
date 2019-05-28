@@ -306,12 +306,14 @@ footer img.logo {
 }
 
 
-.single.single-trip .hero {
+.single.single-trip .hero,
+.single.single-route .hero {
     min-height: calc(100vh - 128px);
     padding: 0;
 }
 
-.single.single-trip .hero .map{
+.single.single-trip .hero .map,
+.single.single-route .hero .map {
     position: absolute;
     top: 0;
     left: 0;
