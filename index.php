@@ -6,7 +6,7 @@
 <!--    <div class="background-image" style="background-image: url(--><?php //echo get_template_directory_uri(); ?><!--/img/main/droga11.jpg); transform: rotate(180deg);"></div>-->
 <!--    <div class="background-image" style="background-image: url(--><?php //echo get_template_directory_uri(); ?><!--/img/main/droga-2.jpg);"></div>-->
 <!--    <div class="background-image" style="background-image: url(--><?php //echo get_template_directory_uri(); ?><!--/img/main/P1160505-2.jpg);">);"></div>-->
-    <div class="background-image" style="background-image: url('https://rowerempomazowszu.pl/team/wp-content/uploads/2019/04/droga-3.jpg');"></div>
+    <div class="background-image" style="background-image: url('<?php header_image(); ?>');"></div>
     <div class="hero-content-area">
         <h1>Wycieczki rowerowe po Warszawie i okolicach. Tych bliższych i dalszych.</h1>
     </div>
