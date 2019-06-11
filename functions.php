@@ -12,6 +12,15 @@ require_once MAZBIKE_THEME_DIR.'libs/widgets.php';
 
 add_theme_support( 'post-thumbnails' );
 
+$customHeader = [
+    'flex-width'    => true,
+    'width'         => 1920,
+    'flex-height'    => true,
+    'height'        => 1080,
+];
+add_theme_support( 'custom-header', $customHeader );
+
+
 if(!function_exists('_log')){
     function _log($message){
 
