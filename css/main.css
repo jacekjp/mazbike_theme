@@ -86,7 +86,6 @@ button,
   opacity: 1;
   padding: 18px 42px;
   color: #ffffff;
-  cursor: pointer;
 }
 .no-wrap {
   white-space: nowrap;
@@ -94,12 +93,6 @@ button,
 #main-page div.abc {
   background: #779922;
   height: auto;
-}
-.home .hero-content-area {
-  max-width: 497px;
-}
-.home .hero-content-area h1 {
-  color: #AACC55;
 }
 .home section h2.title {
   font-weight: normal;
@@ -185,14 +178,11 @@ button,
   max-width: 1024px;
 }
 .contact p {
+  text-align: center;
   margin-bottom: 20px;
 }
 .contact p.attention {
   font-weight: bold;
-}
-.contact p .btn {
-  background-color: #4c1e6d;
-  cursor: pointer;
 }
 .contact hr {
   margin: 0 auto 50px auto;
@@ -234,12 +224,7 @@ button,
 }
 @media (max-width: 1000px) {
   .contact form {
-    padding: 0;
-  }
-}
-@media (max-width: 400px) {
-  .contact p a {
-    font-size: 14px;
+    /*width: 80%;*/
   }
 }
 header.header {
@@ -297,12 +282,12 @@ header.header nav ul#main-nav ul.sub-menu {
 header.header nav ul#main-nav ul.sub-menu li {
   padding: 5px;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   #toggle {
     display: none;
   }
 }
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   body.admin-bar #popout {
     top: 46px;
   }
@@ -637,7 +622,7 @@ header.header nav ul#main-nav ul.sub-menu li {
 }
 .menu-sezony-container ul li,
 .menu-footer-container ul li {
-  margin: 0 5px 0 0;
+  margin-right: 5px;
 }
 .menu-sezony-container ul li:not(:last-child)::after,
 .menu-footer-container ul li:not(:last-child)::after {
@@ -731,6 +716,7 @@ section.search form input {
   color: #792;
   flex: 1;
   width: 200px;
+  min-width: 0;
 }
 @media (max-width: 1000px) {
   .search form input {
