@@ -4,7 +4,7 @@
 
 
 <section class="hero" style="padding: 0;">
-<div id="map" class="map"> Mapa </div>
+<div id="map" class="super map"> Mapa </div>
 <script>
 var map;
 var polyArray = [];

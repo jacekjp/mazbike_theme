@@ -322,7 +322,7 @@ footer img.logo {
     z-index: 1;
 }
 
-.page.page-id-6901 .hero .map { /*super mapa*/
+.page .hero .super.map { /*super mapa*/
     position: absolute;
     top: 0;
     left: 0;
