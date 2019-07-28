@@ -46,7 +46,6 @@ function initMap() {
         var myMap = document.getElementById('map');
         if (thePanorama.getVisible()) {
 
-
             myMap.style.height = '100%';
             myMap.style.width = '100%';
             myMap.style['z-index'] = 100;
@@ -65,7 +64,7 @@ function initMap() {
 
      $query = new WP_Query(array(
     'post_type' => 'route',
-   'posts_per_page'   => -1,
+    'posts_per_page'   => -1,
 //    'post_status' => 'publish'
 ));
 
@@ -78,7 +77,8 @@ while ($query->have_posts()) {
  $routes[] = [
     'route_id' => $routeId,
     'route_title' => get_the_title(),
-    'route_file' => get_post_meta($routeId, 'gpx', true)
+    'route_file' => get_post_meta($routeId, 'gpx', true),
+    'route_is_planned' => get_post_meta($routeId, 'planowana', true)
 ];
 
 }
@@ -88,21 +88,21 @@ wp_reset_query();
 
     var routes = <?php echo $js_routes ?>;
 
-    var i;
-    for (i = 0; i < routes.length; i++) {
-
-        readGpxFile(routes[i]['route_file']).success(function(fData){
-
-            gpxFileData = fData;
-            drowTrack(gpxFileData, <?php echo $routeId ?>);
-        });
+    for (var i = 0; i < routes.length; i++) {
+        readGpxFile(routes[i]);
     }
 }
 
-function drowTrack(gpxFileData, tr_id){
+function drowTrack(gpxFileData, route){
+
+
 
     var points = [];
     var tmp_marker = [];
+
+    var tr_id = route['route_id'];
+    var tr_title = route['route_title'];
+    var tr_plannded = route['route_is_planned'];
 
     var lats = [];
     var lons = [];
@@ -120,11 +120,21 @@ function drowTrack(gpxFileData, tr_id){
     var minPoint =  new google.maps.LatLng(Math.min.apply(Math, lats), Math.min.apply(Math, lons));
     boundsArray.push([tr_id+"_max", maxPoint],[tr_id+"_min", minPoint]);
 
+    var strokeColor = "#4C1E6D";
+    var strokeOpacity = .7;
+    var strokeWeight = 4;
+
+    if(tr_plannded) {
+        strokeColor = "red";
+        strokeOpacity = 1;
+        strokeWeight = 2;
+    }
+
     var poly = new google.maps.Polyline({
         path: points,
-        strokeColor: "#4C1E6D",
-        strokeOpacity: .7,
-        strokeWeight: 4
+        strokeColor: strokeColor,
+        strokeOpacity: strokeOpacity,
+        strokeWeight: strokeWeight
     });
 
     poly.setMap(map);
@@ -157,12 +167,15 @@ function drowTrack(gpxFileData, tr_id){
 //    boundsAdjust(boundsArray);
 }
 
-function readGpxFile(file){
+function readGpxFile(route){
     return jQuery.ajax({
         async: true,
         type: "GET",
-        url: "/team/wp-content/uploads/gpx/"+file,
-        dataType: "xml"
+        url: "/team/wp-content/uploads/gpx/"+route['route_file'],
+        dataType: "xml",
+        success: function(fData){
+            drowTrack(fData, route);
+        }
     })
 }
 
