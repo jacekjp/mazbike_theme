@@ -322,6 +322,15 @@ footer img.logo {
     z-index: 1;
 }
 
+.page.page-id-6901 .hero .map { /*super mapa*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
 .single.single-trip section.post-header {
     width: 100%;
     margin: 0;

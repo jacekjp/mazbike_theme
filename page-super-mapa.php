@@ -4,7 +4,7 @@
 
 
 <section class="hero" style="padding: 0;">
-<div id="map" class="map" style="width: 100vw; height: 100vh;"> Mapa </div>
+<div id="map" class="map"> Mapa </div>
 <script>
 var map;
 var polyArray = [];
@@ -14,7 +14,7 @@ var boundsArray = [];
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 52.237049, lng: 21.017532},
-        zoom: 8,
+        zoom: 9,
         mapTypeControl: true,
         mapTypeControlOptions: {
             style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
@@ -154,7 +154,7 @@ function drowTrack(gpxFileData, tr_id){
 //            });
 
 
-    boundsAdjust(boundsArray);
+//    boundsAdjust(boundsArray);
 }
 
 function readGpxFile(file){
