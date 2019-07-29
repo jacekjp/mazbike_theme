@@ -60,6 +60,8 @@ function initMap() {
 
     });
 
+    showMazowsze();
+
     <?php
 
      $query = new WP_Query(array(
@@ -130,6 +132,12 @@ function drowTrack(gpxFileData, route){
         strokeWeight = 2;
     }
 
+    if(tr_title == 'mazowsze') {
+        strokeColor = "black";
+        strokeOpacity = 1;
+        strokeWeight = 1;
+    }
+
     var poly = new google.maps.Polyline({
         path: points,
         strokeColor: strokeColor,
@@ -140,28 +148,32 @@ function drowTrack(gpxFileData, route){
     poly.setMap(map);
     polyArray[tr_id] = poly;
 
-            google.maps.event.addListener(poly, 'mouseover', function(event) {
+    if(tr_title !== 'mazowsze'){
+        google.maps.event.addListener(poly, 'mouseover', function(event) {
 //                jQuery('#current-info').html(tr_title);
-                poly.setOptions({
+            poly.setOptions({
 //                    strokeColor: "red",
-                    strokeWeight: 6
-                });
-
+                strokeWeight: 6
             });
-            google.maps.event.addListener(poly, 'mouseout', function(event) {
+
+        });
+        google.maps.event.addListener(poly, 'mouseout', function(event) {
 //                jQuery('#current-info').html("");
-                poly.setOptions({
+            poly.setOptions({
 //                    strokeColor: "green",
-                    strokeWeight: strokeWeight
-                });
-
+                strokeWeight: strokeWeight
             });
+
+        });
 //            google.maps.event.addListener(poly, 'click', function(event) {
 //                polyArray[tr_id].setMap(null);
 //                polyArray[tr_id] = 0;
 //                reduceBounds([tr_id+"_max",tr_id+"_min"]);
 //                boundsAdjust(boundsArray);
 //            });
+    }
+
+
 
 
 //    boundsAdjust(boundsArray);
@@ -177,6 +189,14 @@ function readGpxFile(route){
             drowTrack(fData, route);
         }
     })
+}
+
+function showMazowsze(){
+    var route = [];
+    route['route_file'] = 'mazowsze.gpx';
+    route['route_id'] = '0';
+    route['route_title'] = 'mazowsze';
+    readGpxFile(route);
 }
 
 function boundsAdjust(points){
