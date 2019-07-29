@@ -70,17 +70,41 @@ function initMap() {
 //    'post_status' => 'publish'
 ));
 
+ MB_Relationships_API::each_connected(array(
+            'id' => 'trips_to_routs',
+            'to' => $query->posts,
+            'property' => 'trip',
+        ));
+
+
 $routes = array();
 
 while ($query->have_posts()) {
     $query->the_post();
+
+
+
+
     $routeId = get_the_ID();
+
+    $tripYear = date("Y");
+
+     if(!empty($post->trip)){
+
+      $tripYear = get_the_date('Y',$post->trip[0] );
+
+     }
+
+_log($tripYear);
+
+
 
  $routes[] = [
     'route_id' => $routeId,
     'route_title' => get_the_title(),
     'route_file' => get_post_meta($routeId, 'gpx', true),
-    'route_is_planned' => get_post_meta($routeId, 'planowana', true)
+    'route_is_planned' => get_post_meta($routeId, 'planowana', true),
+    'route_year_diff' => date("Y") - $tripYear
 ];
 
 }
@@ -90,12 +114,15 @@ wp_reset_query();
 
     var routes = <?php echo $js_routes ?>;
 
+    console.log('routes');
+    console.log(routes);
+
     for (var i = 0; i < routes.length; i++) {
         readGpxFile(routes[i]);
     }
 }
 
-function drowTrack(gpxFileData, route){
+function drawTrack(gpxFileData, route){
 
 
 
@@ -105,6 +132,7 @@ function drowTrack(gpxFileData, route){
     var tr_id = route['route_id'];
     var tr_title = route['route_title'];
     var tr_plannded = route['route_is_planned'];
+    var tr_year_diff = route['route_year_diff'];
 
     var lats = [];
     var lons = [];
@@ -123,7 +151,9 @@ function drowTrack(gpxFileData, route){
     boundsArray.push([tr_id+"_max", maxPoint],[tr_id+"_min", minPoint]);
 
     var strokeColor = "#4C1E6D";
-    var strokeOpacity = .7;
+    tr_year_diff = (tr_year_diff < 8 )? tr_year_diff : 7;
+    var strokeOpacity = 1 - 0.1 * tr_year_diff;
+    strokeOpacity = strokeOpacity.toFixed(1);
     var strokeWeight = 4;
 
     if(tr_plannded) {
@@ -186,7 +216,7 @@ function readGpxFile(route){
         url: "/team/wp-content/uploads/gpx/"+route['route_file'],
         dataType: "xml",
         success: function(fData){
-            drowTrack(fData, route);
+            drawTrack(fData, route);
         }
     })
 }
@@ -196,6 +226,7 @@ function showMazowsze(){
     route['route_file'] = 'mazowsze.gpx';
     route['route_id'] = '0';
     route['route_title'] = 'mazowsze';
+    route['route_year_diff'] = 0;
     readGpxFile(route);
 }
 
