@@ -68,6 +68,7 @@ function initMap() {
     'post_type' => 'route',
     'posts_per_page'   => -1,
 //    'post_status' => 'publish'
+    'post_status' => array('publish', 'pending', 'draft', 'auto-draft')
 ));
 
  MB_Relationships_API::each_connected(array(
@@ -114,9 +115,6 @@ wp_reset_query();
 
     var routes = <?php echo $js_routes ?>;
 
-    console.log('routes');
-    console.log(routes);
-
     for (var i = 0; i < routes.length; i++) {
         readGpxFile(routes[i]);
     }
@@ -124,14 +122,12 @@ wp_reset_query();
 
 function drawTrack(gpxFileData, route){
 
-
-
     var points = [];
     var tmp_marker = [];
 
     var tr_id = route['route_id'];
     var tr_title = route['route_title'];
-    var tr_plannded = route['route_is_planned'];
+    var tr_is_planned = route['route_is_planned'];
     var tr_year_diff = route['route_year_diff'];
 
     var lats = [];
@@ -156,7 +152,7 @@ function drawTrack(gpxFileData, route){
     strokeOpacity = strokeOpacity.toFixed(1);
     var strokeWeight = 4;
 
-    if(tr_plannded) {
+    if(tr_is_planned == 1) {
         strokeColor = "red";
         strokeOpacity = 1;
         strokeWeight = 2;
