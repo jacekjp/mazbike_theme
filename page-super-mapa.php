@@ -140,22 +140,22 @@ function drowTrack(gpxFileData, route){
     poly.setMap(map);
     polyArray[tr_id] = poly;
 
-//            google.maps.event.addListener(poly, 'mouseover', function(event) {
-//                $('#current-info').html(tr_title);
-//                poly.setOptions({
+            google.maps.event.addListener(poly, 'mouseover', function(event) {
+//                jQuery('#current-info').html(tr_title);
+                poly.setOptions({
 //                    strokeColor: "red",
-//                    strokeWeight: 6
-//                });
-//
-//            });
-//            google.maps.event.addListener(poly, 'mouseout', function(event) {
-//                $('#current-info').html("");
-//                poly.setOptions({
+                    strokeWeight: 6
+                });
+
+            });
+            google.maps.event.addListener(poly, 'mouseout', function(event) {
+//                jQuery('#current-info').html("");
+                poly.setOptions({
 //                    strokeColor: "green",
-//                    strokeWeight: 4
-//                });
-//
-//            });
+                    strokeWeight: strokeWeight
+                });
+
+            });
 //            google.maps.event.addListener(poly, 'click', function(event) {
 //                polyArray[tr_id].setMap(null);
 //                polyArray[tr_id] = 0;
