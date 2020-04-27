@@ -100,6 +100,7 @@ function initMap() {
 
         $tripYear = date("Y");
         $tripLink = "#";
+        $tripTitle = "";
 
         foreach ( $post->trip as $post ) : setup_postdata( $post );
 
