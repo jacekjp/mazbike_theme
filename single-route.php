@@ -47,7 +47,7 @@ if ( have_posts() ) :
             controlText.style.lineHeight = '38px';
             controlText.style.paddingLeft = '5px';
             controlText.style.paddingRight = '5px';
-            controlText.innerHTML = '<a href="https://new.rowerempomazowszu.pl/team/wp-content/uploads/gpx/<?php echo  get_post_meta($routeId, 'gpx', true); ?>">GPX</a>';
+            controlText.innerHTML = '<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/gpx/<?php echo  get_post_meta($routeId, 'gpx', true); ?>">GPX</a>';
             controlUI.appendChild(controlText);
 
         }
@@ -105,7 +105,7 @@ if ( have_posts() ) :
             });
 
 //            var ctaLayer = new google.maps.KmlLayer({
-//                url:  'https://new.rowerempomazowszu.pl/team/wp-content/uploads/gpx/<?php //echo  get_post_meta($routeId, 'gpx', true); ?>//'
+//                url:  'https://rowerempomazowszu.pl/team/wp-content/uploads/gpx/<?php //echo  get_post_meta($routeId, 'gpx', true); ?>//'
 //                ,color: '#779922'
 //                }
 //            );
@@ -123,7 +123,7 @@ if ( have_posts() ) :
 
 //            var myloc = new google.maps.Marker({
 //                clickable: false,
-//                icon: new google.maps.MarkerImage('https://new.rowerempomazowszu.pl/team/wp-content/themes/mazbike/img/top.png',
+//                icon: new google.maps.MarkerImage('https://rowerempomazowszu.pl/team/wp-content/themes/mazbike/img/top.png',
 //                    new google.maps.Size(40,40),
 //                    new google.maps.Point(0,18),
 //                    new google.maps.Point(11,11)),
@@ -167,8 +167,8 @@ if ( have_posts() ) :
             var minPoint =  new google.maps.LatLng(Math.min.apply(Math, lats), Math.min.apply(Math, lons));
             boundsArray.push([tr_id+"_max", maxPoint],[tr_id+"_min", minPoint]);
 
-            console.log('points');
-            console.log(points);
+//            console.log('points');
+//            console.log(points);
             var poly = new google.maps.Polyline({
                 path: points,
                 strokeColor: "#4C1E6D",

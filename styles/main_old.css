@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: Apropal;
-    src: url(https://new.rowerempomazowszu.pl/team/wp-content/themes/mazbike/fonts/Apropal-Bold.ttf);
+    src: url(https://rowerempomazowszu.pl/team/wp-content/themes/mazbike/fonts/Apropal-Bold.ttf);
     font-weight: normal;
 }
 
@@ -306,14 +306,29 @@ footer img.logo {
 }
 
 
+#map-info {
+    min-width: 100px;
+    height: 50px;
+    position: absolute;
+    background: white;
+    z-index: 999;
+    bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
 .single.single-trip .hero,
-.single.single-route .hero {
+.single.single-route .hero,
+.page-template-season .hero{
     min-height: calc(100vh - 128px);
     padding: 0;
 }
 
 .single.single-trip .hero .map,
-.single.single-route .hero .map {
+.single.single-route .hero .map,
+.page-template-season .hero .map
+{
     position: absolute;
     top: 0;
     left: 0;

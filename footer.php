@@ -1,6 +1,6 @@
 <footer>
     <div>
-        <p><img src="https://new.rowerempomazowszu.pl/team/wp-content/themes/mazbike/img/LogoWhite.png" alt="Mazbike" class="logo"></p>
+        <p><img src="<?php echo get_template_directory_uri(); ?>/img/LogoWhite.png" alt="Mazbike" class="logo"></p>
 
                 <?php wp_nav_menu( array( 'theme_location' => 'footer-nav', 'menu_class' => 'footer-menu','name' => 'Footer Menu',
                 'menu_id' => 'footer-nav',

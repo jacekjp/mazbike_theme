@@ -64,7 +64,7 @@
                     <li id="location-<?php the_ID(); ?>" <?php post_class(($i % 3 == 1) ? 'large' : 'small'); ?>>
                         <a href="<?php the_permalink(); ?>">
 
-                            <div style="background-image: url(<?php the_post_thumbnail_url('large'); ?>);" class="scrollme animateme"
+                            <div style="background-image: url(<?php the_post_thumbnail_url(($i % 3 == 1) ? 'main-large' : 'main-small'); ?>);" class="scrollme animateme"
                                  data-when="span"
                                  data-from="0.5"
                                  data-to="0"
@@ -174,10 +174,10 @@
                 <?php foreach ($post->trip as $post) : setup_postdata($post); ?>
                     <li id="location-<?php the_ID(); ?>" <?php post_class(($i % 3 == 1) ? 'large' : 'small'); ?>>
                         <a href="<?php the_permalink(); ?>">
-                            <div style="background-image: url(<?php the_post_thumbnail_url('large'); ?>);" class="scrollme animateme"
+                            <div style="background-image: url(<?php the_post_thumbnail_url(($i % 3 == 1) ? 'main-large' : 'main-small'); ?>);" class="scrollme animateme"
                                  data-when="span"
                                  data-from="0.5"
-                                 data-to="0"
+                                 data-to="-1"
                                  data-opacity="0"
                                  data-scale="0.8"
                                  data-rotatez="0">
@@ -227,7 +227,7 @@
          >
 
     <div>
-        <h2 class="title"><img src="https://new.rowerempomazowszu.pl/team/wp-content/themes/mazbike/img/LogoGreen.png" class="logo" alt="Mazbike"></h2>
+        <h2 class="title"><img src="<?php echo get_template_directory_uri(); ?>/img/LogoGreen.png" class="logo" alt="Mazbike"></h2>
         <div class="info">
             <div class="mazbike-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/mazbike.jpg);"></div>
             <p class="i">

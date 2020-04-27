@@ -5,11 +5,8 @@
 
 <section class="hero" style="padding: 0;">
 <div id="map" class="super map"> Mapa </div>
-
-<div id="map-info"></div>
-
 <script>
-var map;
+var map, infowindow, contentString, currentPoly;
 var polyArray = [];
 var boundsArray = [];
 
@@ -27,6 +24,18 @@ function initMap() {
         fullscreenControlOptions: {
             position: google.maps.ControlPosition.RIGHT_CENTER
         }
+    });
+
+    infowindow = new google.maps.InfoWindow({
+        content: ""
+    });
+
+    google.maps.event.addListener(infowindow,'closeclick',function(){
+        currentPoly.setOptions({
+            strokeColor: "#4C1E6D",
+            strokeWeight: 2
+        });
+        currentPoly = undefined;
     });
 
     var centerControlDiv = document.createElement('div');
@@ -63,15 +72,17 @@ function initMap() {
 
     });
 
+
+
     showMazowsze();
 
     <?php
 
      $query = new WP_Query(array(
-    'post_type' => 'route',
-    'posts_per_page'   => -1,
-//    'post_status' => 'publish'
-    'post_status' => array('publish', 'pending', 'draft', 'auto-draft')
+        'post_type' => 'route',
+        'posts_per_page'   => -1,
+        'post_status' => 'publish'
+//    'post_status' => array('publish', 'pending', 'draft', 'auto-draft')
 ));
 
  MB_Relationships_API::each_connected(array(
@@ -81,40 +92,43 @@ function initMap() {
         ));
 
 
-$routes = array();
+    $routes = array();
 
-while ($query->have_posts()) {
-    $query->the_post();
+   while ( $query->have_posts() ) : $query->the_post();
 
+        $routeId = get_the_ID();
 
+        $tripYear = date("Y");
+        $tripLink = "#";
 
+        foreach ( $post->trip as $post ) : setup_postdata( $post );
 
-    $routeId = get_the_ID();
+          $tripYear = get_the_date('Y',$post );
+          $tripLink = get_permalink($post);
+          $tripTitle = get_the_title($post);
 
-    $tripYear = date("Y");
-
-     if(!empty($post->trip)){
-
-      $tripYear = get_the_date('Y',$post->trip[0] );
-
-     }
-
-_log($tripYear);
+        endforeach;
+        wp_reset_postdata(); // Set $post back to original post
 
 
 
- $routes[] = [
-    'route_id' => $routeId,
-    'route_title' => get_the_title(),
-    'route_file' => get_post_meta($routeId, 'gpx', true),
-    'route_is_planned' => get_post_meta($routeId, 'planowana', true),
-    'route_year_diff' => date("Y") - $tripYear
-];
+    $routes[] = [
+        'route_id' => $routeId,
+        'route_title' => get_the_title(),
+        'route_file' => get_post_meta($routeId, 'gpx', true),
+        'route_is_planned' => get_post_meta($routeId, 'planowana', true),
+        'route_year_diff' => date("Y") - $tripYear,
+        'trip_title' => $tripTitle,
+        'trip_link' => $tripLink,
+        'meta' => get_post_meta($routeId)
+    ];
 
-}
-$js_routes = json_encode($routes);
-wp_reset_query();
-     ?>
+
+    endwhile;
+
+    $js_routes = json_encode($routes);
+    wp_reset_query();
+         ?>
 
     var routes = <?php echo $js_routes ?>;
 
@@ -131,6 +145,9 @@ function drawTrack(gpxFileData, route){
     var tr_id = route['route_id'];
     var tr_title = route['route_title'];
     var tr_is_planned = route['route_is_planned'];
+
+    if(tr_is_planned == 1) return;
+
     var tr_year_diff = route['route_year_diff'];
 
     var lats = [];
@@ -150,10 +167,11 @@ function drawTrack(gpxFileData, route){
     boundsArray.push([tr_id+"_max", maxPoint],[tr_id+"_min", minPoint]);
 
     var strokeColor = "#4C1E6D";
-    tr_year_diff = (tr_year_diff < 8 )? tr_year_diff : 7;
-    var strokeOpacity = 1 - 0.1 * tr_year_diff;
-    strokeOpacity = strokeOpacity.toFixed(1);
-    var strokeWeight = 4;
+//    tr_year_diff = (tr_year_diff < 8 )? tr_year_diff : 7;
+//    var strokeOpacity = 1 - 0.1 * tr_year_diff;
+//    strokeOpacity = strokeOpacity.toFixed(1);
+    var strokeOpacity = 1;
+    var strokeWeight = 2;
 
     if(tr_is_planned == 1) {
         strokeColor = "red";
@@ -182,24 +200,60 @@ function drawTrack(gpxFileData, route){
 //                jQuery('#current-info').html(tr_title);
             poly.setOptions({
 //                    strokeColor: "red",
-                strokeWeight: 6
+                strokeWeight: 5
             });
 
         });
         google.maps.event.addListener(poly, 'mouseout', function(event) {
 //                jQuery('#current-info').html("");
+
             poly.setOptions({
 //                    strokeColor: "green",
                 strokeWeight: strokeWeight
             });
 
+            if(typeof currentPoly !== "undefined")
+            {
+                currentPoly.setOptions({
+                    strokeColor: "#792",
+                    strokeWeight: 5
+                });
+            }
+
+
+
         });
-//            google.maps.event.addListener(poly, 'click', function(event) {
+
+        console.log('route');
+        console.log(route);
+
+        var infowindowstring = "<div style='color:#792;padding:5px;'><a href='" + route.trip_link + "'>" + route.trip_title + " | " + route.meta.dystans + "km</a></div>";
+
+            google.maps.event.addListener(poly, 'click', function(event) {
+
+                if(typeof currentPoly !== "undefined")
+                {
+                    currentPoly.setOptions({
+                        strokeColor: "#4C1E6D",
+                        strokeWeight: 2
+                    });
+                }
+                    currentPoly = poly;
+
+                infowindow.setContent(infowindowstring);
+                infowindow.setPosition(event.latLng);
+                infowindow.open(map );
+                poly.setOptions({
+                    strokeColor: "#792",
+                    strokeWeight: 5
+                });
+
+
 //                polyArray[tr_id].setMap(null);
 //                polyArray[tr_id] = 0;
 //                reduceBounds([tr_id+"_max",tr_id+"_min"]);
 //                boundsAdjust(boundsArray);
-//            });
+            });
     }
 
 
@@ -243,6 +297,7 @@ function boundsAdjust(points){
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACNnTkm0EmNOzoH6HXOYzjk2DcrR5wP8c&callback=initMap"
         async defer></script>
+
 </section>
 
     <section class="page-header page">

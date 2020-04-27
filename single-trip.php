@@ -59,7 +59,7 @@ endwhile;
             controlText.style.lineHeight = '38px';
             controlText.style.paddingLeft = '5px';
             controlText.style.paddingRight = '5px';
-            controlText.innerHTML = '<a href="https://new.rowerempomazowszu.pl/team/wp-content/uploads/gpx/<?php echo  get_post_meta($routeId, 'gpx', true); ?>">GPX</a>';
+            controlText.innerHTML = '<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/gpx/<?php echo  get_post_meta($routeId, 'gpx', true); ?>">GPX</a>';
             controlUI.appendChild(controlText);
 
         }
@@ -117,7 +117,7 @@ endwhile;
             });
 
 //            var ctaLayer = new google.maps.KmlLayer({
-//                url:  'https://new.rowerempomazowszu.pl/team/wp-content/uploads/gpx/<?php //echo  get_post_meta($routeId, 'gpx', true); ?>//'
+//                url:  'https://rowerempomazowszu.pl/team/wp-content/uploads/gpx/<?php //echo  get_post_meta($routeId, 'gpx', true); ?>//'
 //                ,color: '#779922'
 //                }
 //            );
@@ -179,8 +179,8 @@ endwhile;
             var minPoint =  new google.maps.LatLng(Math.min.apply(Math, lats), Math.min.apply(Math, lons));
             boundsArray.push([tr_id+"_max", maxPoint],[tr_id+"_min", minPoint]);
 
-            console.log('points');
-            console.log(points);
+//            console.log('points');
+//            console.log(points);
             var poly = new google.maps.Polyline({
                 path: points,
                 strokeColor: "#4C1E6D",

@@ -57,7 +57,7 @@ $total_results = $wp_query->found_posts;
 
                 <li id="location-<?php the_ID(); ?>" <?php post_class(($i % 3 == 1) ? 'large' : 'small'); ?>>
                     <a href="<?php the_permalink(); ?>">
-                        <div style="background-image: url(<?php the_post_thumbnail_url('large'); ?>);">
+                        <div style="background-image: url(<?php the_post_thumbnail_url(($i % 3 == 1) ? 'main-large' : 'main-small'); ?>);">
                             <p class="title"><?php the_title(); ?> |  <?php echo  get_post_meta($routeId, 'dystans', true); ?> km | <?php the_date(); ?></p>
                         </div>
                     </a>
