@@ -306,6 +306,18 @@ footer img.logo {
 }
 
 
+#map-info {
+    min-width: 100px;
+    height: 50px;
+    position: absolute;
+    background: white;
+    z-index: 999;
+    bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
 .single.single-trip .hero,
 .single.single-route .hero,
 .page-template-season .hero{
