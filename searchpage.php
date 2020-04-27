@@ -59,7 +59,7 @@ $search = getQuerySingleParam('search');
 
             ?>
 
-            <h2 class="title">Znaleziono <?php echo $total_results; ?> <?php echo polishPlural('wyczieczkę', 'wycieczki', 'wycieczek', $total_results)  ?>: </h2>
+            <h2 class="title">Znaleziono <?php echo $total_results; ?> <?php echo polishPlural('wycieczkę', 'wycieczki', 'wycieczek', $total_results)  ?>: </h2>
             <hr>
 
             <ul class="grid">
@@ -69,7 +69,7 @@ $search = getQuerySingleParam('search');
 
                         <li id="location-<?php the_ID(); ?>" <?php post_class(($i % 3 == 1) ? 'large' : 'small'); ?>>
                             <a href="<?php the_permalink(); ?>">
-                                <div style="background-image: url(<?php the_post_thumbnail_url('large'); ?>);">
+                                <div style="background-image: url(<?php the_post_thumbnail_url(($i % 3 == 1) ? 'main-large' : 'main-small'); ?>);" class="">
                                     <p class="title"><?php the_title(); ?> | <span class="no-wrap"><?php echo  get_post_meta($post->connected[0]->ID, 'dystans', true); ?> km |</span> <span class="no-wrap"><?php the_date(); ?></span></p>
                                 </div>
                             </a>

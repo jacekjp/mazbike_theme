@@ -25,7 +25,7 @@ if(!function_exists('_log')){
     function _log($message){
 
         if(defined('WP_DEBUG') && WP_DEBUG){
-            $file_path = __DIR__.DIRECTORY_SEPARATOR.'app_dev.log';
+            $file_path = __DIR__.DIRECTORY_SEPARATOR.'app_dev2.log';
 
             $time = date('Y-m-d H:i:s');
 
@@ -41,6 +41,17 @@ if(!function_exists('_log')){
         }
     }
 }
+
+function getSeasonYear($title){
+
+    return preg_replace('/[^0-9]/', '', $title);;
+}
+
+function rpm_thumbs_setup() {
+    add_image_size( 'main-large', 1024, 350, true );
+    add_image_size( 'main-small', 576, 350, true );
+}
+add_action( 'after_setup_theme', 'rpm_thumbs_setup' );
 
 function printPostCategories($post_id, array $categories = array()){
     $terms_list = array();

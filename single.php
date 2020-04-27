@@ -21,9 +21,9 @@
                 }
 
             });
-            console.log('map');
-            console.log(map);
-            var ctaLayer = new google.maps.KmlLayer('https://new.rowerempomazowszu.pl/team/wp-content/uploads/gpx/2018-09-Ostroleka2.gpx');
+//            console.log('map');
+//            console.log(map);
+            var ctaLayer = new google.maps.KmlLayer('https://rowerempomazowszu.pl/team/wp-content/uploads/gpx/2018-09-Ostroleka2.gpx');
 
             ctaLayer.setMap(map);
 

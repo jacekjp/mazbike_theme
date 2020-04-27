@@ -191,6 +191,7 @@ add_action( 'mb_relationships_init', function() {
         'from' => array(
             'object_type' => 'post',
             'post_type' => 'trip',
+            'admin_column' => true,
             'meta_box' => array(
                 'title' => 'Trasa',
                 'field_title' => 'test'
@@ -199,6 +200,7 @@ add_action( 'mb_relationships_init', function() {
         'to'   => array(
             'object_type' => 'post',
             'post_type' => 'route',
+            'admin_column' => true,
             'meta_box' => array(
                 'title' => 'Wycieczka',
                 'field_title' => 'test'

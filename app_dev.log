@@ -1,199 +1,64 @@
-2019-03-28 19:10:22	WP_Term Object
-(
-    [term_id] => 520
-    [name] => Mazowsze
-    [slug] => mazowsze
-    [term_group] => 0
-    [term_taxonomy_id] => 520
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 0
-    [count] => 105
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 19:10:22	------$post1-----
-2019-03-28 19:10:22	------$post1-----
-2019-03-28 19:10:22	------$post1-----
-2019-03-28 19:10:22	------$post1-----
-2019-03-28 19:10:22	------$post2-----
-2019-03-28 19:10:22	------$post1-----
-2019-03-28 19:10:22	------$post2-----
-2019-03-28 19:11:19	WP_Term Object
-(
-    [term_id] => 520
-    [name] => Mazowsze
-    [slug] => mazowsze
-    [term_group] => 0
-    [term_taxonomy_id] => 520
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 0
-    [count] => 105
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 19:11:19	------$post1-----
-2019-03-28 19:11:19	WP_Post Object
-(
-    [ID] => 5376
-    [post_author] => 1
-    [post_date] => 2019-01-29 20:26:51
-    [post_date_gmt] => 2019-01-29 19:26:51
-    [post_content] => Hali, trzymając się trzeba kadetów. Na razie zdobytej nieoczekiwanie fortuny, pod zaklęsłymi stropami, pocisku względem tła korytarzu śródokręcia miarowo szumiały które można będzie sobie właśnie, że w kieszonce z Poego. Podszedł Corneliusa drugie, trzecie wrota nie tylko dostrzec dziewcząt. Nie mówiąc naturalnie jakim sunął, nieważki pocztowy, ale powoli doszedł żart. Stał na sprężynującej nagrzanych blach. Szybował to, raz jeden swojemu ręce do tyłu i stając bez końca wysypywać miedziaki Najbliższą pokrywały czarne plamy?
-    [post_title] => W Ciechanowie 2
-    [post_excerpt] => 
-    [post_status] => publish
-    [comment_status] => open
-    [ping_status] => open
-    [post_password] => 
-    [post_name] => w-ciechanowie-2
-    [to_ping] => 
-    [pinged] => 
-    [post_modified] => 2019-01-29 20:53:55
-    [post_modified_gmt] => 2019-01-29 19:53:55
-    [post_content_filtered] => 
-    [post_parent] => 0
-    [guid] => https://new.rowerempomazowszu.pl/?post_type=location&#038;p=5376
-    [menu_order] => 0
-    [post_type] => location
-    [post_mime_type] => 
-    [comment_count] => 0
-    [filter] => raw
-)
-
-2019-03-28 19:11:19	------$post1-----
-2019-03-28 19:11:19	WP_Post Object
-(
-    [ID] => 5374
-    [post_author] => 1
-    [post_date] => 2019-01-29 20:26:23
-    [post_date_gmt] => 2019-01-29 19:26:23
-    [post_content] => Foteli. Trwał w zawieszeniu Mars żmudnych prac, właśnie, że w kieszonce od zegarka się pojawią, nie będzie wyobrażaniem tego, czy będą razy do buta pod jakichś paragrafów „Postępowania Kalkulator też bo nie upatrywał zgrozy życia zakręcał, gdy ściągaczki bryki elektronowe, brzmiał fałszywie, od zamknięty, wszystkie tablice na niej śmiertelnie człowieka”. Niepokalany, rodem z Poego. Podszedł śmiechem. Bardzo szybko w jaki sposób wracała, Stał na sprężynującej desce, raczej szydercza niż mu brzmiał.
-    [post_title] => Cos w Ciechanowie
-    [post_excerpt] => 
-    [post_status] => publish
-    [comment_status] => open
-    [ping_status] => open
-    [post_password] => 
-    [post_name] => cos-w-ciechanowie
-    [to_ping] => 
-    [pinged] => 
-    [post_modified] => 2019-01-29 20:54:26
-    [post_modified_gmt] => 2019-01-29 19:54:26
-    [post_content_filtered] => 
-    [post_parent] => 0
-    [guid] => https://new.rowerempomazowszu.pl/?post_type=location&#038;p=5374
-    [menu_order] => 0
-    [post_type] => location
-    [post_mime_type] => 
-    [comment_count] => 0
-    [filter] => raw
-)
-
-2019-03-28 19:11:19	------$post1-----
-2019-03-28 19:11:19	WP_Post Object
-(
-    [ID] => 5372
-    [post_author] => 1
-    [post_date] => 2019-01-28 00:27:51
-    [post_date_gmt] => 2019-01-27 23:27:51
-    [post_content] => strona o Zamku w Czersku
-    [post_title] => Zamek w Czersku
-    [post_excerpt] => 
-    [post_status] => publish
-    [comment_status] => open
-    [ping_status] => open
-    [post_password] => 
-    [post_name] => zamek-w-czersku
-    [to_ping] => 
-    [pinged] => 
-    [post_modified] => 2019-01-29 20:55:00
-    [post_modified_gmt] => 2019-01-29 19:55:00
-    [post_content_filtered] => 
-    [post_parent] => 0
-    [guid] => https://new.rowerempomazowszu.pl/?post_type=location&#038;p=5372
-    [menu_order] => 0
-    [post_type] => location
-    [post_mime_type] => 
-    [comment_count] => 0
-    [filter] => raw
-)
-
-2019-03-28 19:11:19	------$post1-----
-2019-03-28 19:11:19	WP_Post Object
-(
-    [ID] => 5378
-    [post_author] => 1
-    [post_date] => 2018-09-16 21:11:11
-    [post_date_gmt] => 2018-09-16 19:11:11
-    [post_content] => opis trasy
-    [post_title] => Ostrołęka 2
-    [post_excerpt] => 
-    [post_status] => publish
-    [comment_status] => open
-    [ping_status] => open
-    [post_password] => 
-    [post_name] => ostroleka-2
-    [to_ping] => 
-    [pinged] => 
-    [post_modified] => 2019-02-23 12:43:57
-    [post_modified_gmt] => 2019-02-23 11:43:57
-    [post_content_filtered] => 
-    [post_parent] => 0
-    [guid] => https://new.rowerempomazowszu.pl/?post_type=route&#038;p=5378
-    [menu_order] => 0
-    [post_type] => route
-    [post_mime_type] => 
-    [comment_count] => 0
-    [filter] => raw
-)
-
-2019-03-28 19:11:19	------$post2-----
-2019-03-28 19:11:19	------$post1-----
-2019-03-28 19:11:19	WP_Post Object
-(
-    [ID] => 5386
-    [post_author] => 1
-    [post_date] => 2018-09-15 17:20:55
-    [post_date_gmt] => 2018-09-15 15:20:55
-    [post_content] => 
-    [post_title] => Ostrołęka 1
-    [post_excerpt] => 
-    [post_status] => publish
-    [comment_status] => open
-    [ping_status] => open
-    [post_password] => 
-    [post_name] => ostroleka-1
-    [to_ping] => 
-    [pinged] => 
-    [post_modified] => 2019-02-19 19:44:38
-    [post_modified_gmt] => 2019-02-19 18:44:38
-    [post_content_filtered] => 
-    [post_parent] => 0
-    [guid] => https://new.rowerempomazowszu.pl/?post_type=route&#038;p=5386
-    [menu_order] => 0
-    [post_type] => route
-    [post_mime_type] => 
-    [comment_count] => 0
-    [filter] => raw
-)
-
-2019-03-28 19:11:19	------$post2-----
-2019-03-28 19:14:10	WP_Query Object
+2019-08-18 11:34:21	Mazowsze
+2019-08-18 11:34:21	WP_Query Object
 (
     [query] => Array
         (
-            [locality] => mazowsze
+            [post_type] => route
+            [posts_per_page] => 3
+            [tax_query] => Array
+                (
+                    [relation] => AND
+                    [0] => Array
+                        (
+                            [taxonomy] => locality
+                            [field] => slug
+                            [terms] => mazowsze
+                        )
+
+                    [1] => Array
+                        (
+                            [taxonomy] => locality
+                            [field] => slug
+                            [terms] => Array
+                                (
+                                    [0] => warszawa
+                                )
+
+                            [operator] => NOT IN
+                        )
+
+                )
+
         )
 
     [query_vars] => Array
         (
-            [locality] => mazowsze
+            [post_type] => route
+            [posts_per_page] => 3
+            [tax_query] => Array
+                (
+                    [relation] => AND
+                    [0] => Array
+                        (
+                            [taxonomy] => locality
+                            [field] => slug
+                            [terms] => mazowsze
+                        )
+
+                    [1] => Array
+                        (
+                            [taxonomy] => locality
+                            [field] => slug
+                            [terms] => Array
+                                (
+                                    [0] => warszawa
+                                )
+
+                            [operator] => NOT IN
+                        )
+
+                )
+
             [error] => 
             [m] => 
             [p] => 0
@@ -291,12 +156,25 @@
                 (
                 )
 
+            [ignore_sticky_posts] => 
+            [suppress_filters] => 
+            [cache_results] => 1
+            [update_post_term_cache] => 1
+            [lazy_load_term_meta] => 1
+            [update_post_meta_cache] => 1
+            [nopaging] => 
+            [comments_per_page] => 50
+            [no_found_rows] => 
+            [taxonomy] => locality
+            [term] => mazowsze
+            [order] => DESC
         )
 
     [tax_query] => WP_Tax_Query Object
         (
             [queries] => Array
                 (
+                    [relation] => AND
                     [0] => Array
                         (
                             [taxonomy] => locality
@@ -310,11 +188,25 @@
                             [include_children] => 1
                         )
 
+                    [1] => Array
+                        (
+                            [taxonomy] => locality
+                            [terms] => Array
+                                (
+                                    [0] => warszawa
+                                )
+
+                            [field] => slug
+                            [operator] => NOT IN
+                            [include_children] => 1
+                        )
+
                 )
 
             [relation] => AND
             [table_aliases:protected] => Array
                 (
+                    [0] => wp_term_relationships
                 )
 
             [queried_terms] => Array
@@ -331,19 +223,421 @@
 
                 )
 
-            [primary_table] => 
-            [primary_id_column] => 
+            [primary_table] => wp_posts
+            [primary_id_column] => ID
         )
 
-    [meta_query] => 
+    [meta_query] => WP_Meta_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => 
+            [meta_table] => 
+            [meta_id_column] => 
+            [primary_table] => 
+            [primary_id_column] => 
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [clauses:protected] => Array
+                (
+                )
+
+            [has_or_relation:protected] => 
+        )
+
     [date_query] => 
-    [post_count] => 0
+    [request] => SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  LEFT JOIN wp_term_relationships ON (wp_posts.ID = wp_term_relationships.object_id) WHERE 1=1  AND ( 
+  wp_term_relationships.term_taxonomy_id IN (520,521,522,523,524,525,528,529,530,531,532,533,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,572,573,574,575,576,577,578,581,582,583,584,585,586,587,588,589,590,593,594,595,596,600,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,640) 
+  AND 
+  wp_posts.ID NOT IN (
+				SELECT object_id
+				FROM wp_term_relationships
+				WHERE term_taxonomy_id IN (521)
+			)
+) AND wp_posts.post_type = 'route' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'private') GROUP BY wp_posts.ID ORDER BY wp_posts.post_date DESC LIMIT 0, 3
+    [posts] => Array
+        (
+            [0] => WP_Post Object
+                (
+                    [ID] => 6999
+                    [post_author] => 1
+                    [post_date] => 2019-08-06 13:24:20
+                    [post_date_gmt] => 2019-08-06 11:24:20
+                    [post_content] => 
+                    [post_title] => Ozarow-Brwinow
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => ozarow-brwinow
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2019-08-17 20:26:22
+                    [post_modified_gmt] => 2019-08-17 18:26:22
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => https://rowerempomazowszu.pl/?post_type=route&#038;p=6999
+                    [menu_order] => 0
+                    [post_type] => route
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [trip] => Array
+                        (
+                        )
+
+                )
+
+            [1] => WP_Post Object
+                (
+                    [ID] => 5378
+                    [post_author] => 1
+                    [post_date] => 2018-09-16 21:11:11
+                    [post_date_gmt] => 2018-09-16 19:11:11
+                    [post_content] => opis trasy
+                    [post_title] => Ostrołęka 2
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => ostroleka-2
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2019-02-23 12:43:57
+                    [post_modified_gmt] => 2019-02-23 11:43:57
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => https://rowerempomazowszu.pl/?post_type=route&#038;p=5378
+                    [menu_order] => 0
+                    [post_type] => route
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [trip] => Array
+                        (
+                            [0] => WP_Post Object
+                                (
+                                    [ID] => 5083
+                                    [post_author] => 3
+                                    [post_date] => 2018-09-16 19:15:15
+                                    [post_date_gmt] => 2018-09-16 17:15:15
+                                    [post_content] => Dzisiejszy dzień zaczął nam się dość nietypowo. Kiedy już mieliśmy startować z wycieczką, okazało się, że w jednym z rowerów mamy kapeć... Zaczęliśmy zatem od wymiany dętki, ale uznaliśmy zgodnie, że był to w sumie lepszy moment, niż miałoby nam się to przydarzyć później na trasie...
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3302a.jpg"><img class="aligncenter size-full wp-image-5279" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3302a.jpg" alt="" width="1024" height="768" /></a>
+
+Kiedy już wyruszyliśmy, najpierw skierowaliśmy się na drugi brzeg Narwi, aby podjechać pod Pomnik-Mauzoleum bitwy pod Ostrołęką 1931 r.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3307-2.jpg"><img class="aligncenter size-full wp-image-5280" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3307-2.jpg" alt="" width="1024" height="768" /></a>
+
+Podczas powstania listopadowego w tym miejscu istniał Fort Bema.
+
+Pomnik zaczęto budować już w latach 30. XX wieku, ale przede wszystkim ze względu na brak funduszy, na jego finalizację trzeba było czekać aż do 2012 r. Z całą historią zapoznać się można w ciekawym <a href="http://weekend.gazeta.pl/weekend/1,152121,20068135,pomnik-szczerych-serc-nowe-stare-mauzoleum-upamietniajace.html">artykule Filipa Springera</a>.
+
+Betonowa kaplica z podziemnym muzeum multimedialnym:
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3309a.jpg"><img class="aligncenter size-full wp-image-5281" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3309a.jpg" alt="" width="1024" height="768" /></a>
+
+Na terenie wystawione są też repliki armat i jednorogów z początku XIX w. oraz wyrzutni Bema.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3311-2.jpg"><img class="aligncenter size-full wp-image-5282" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3311-2.jpg" alt="" width="1024" height="768" /></a>
+
+Po obejrzeniu mauzoleum, skierowaliśmy się nad rzekę, na wał.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3313-2.jpg"><img class="aligncenter size-full wp-image-5283" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3313-2.jpg" alt="" width="1024" height="768" /></a>
+
+Dzisiejszy dzień był przepiękny, krajobraz dookoła również 😊
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3318-2.jpg"><img class="aligncenter size-full wp-image-5285" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3318-2.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3320-2.jpg"><img class="aligncenter size-full wp-image-5286" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3320-2.jpg" alt="" width="1024" height="768" /></a>
+
+Po drodze minęliśmy kontrowersyjną hałdę popiołów tutejszych zakładów. W ostatnim czasie znacznie się zmniejszyła.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5646a.jpg"><img class="aligncenter size-full wp-image-5288" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5646a.jpg" alt="" width="1024" height="685" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3321-2.jpg"><img class="aligncenter size-full wp-image-5287" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3321-2.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3323-2.jpg"><img class="aligncenter size-full wp-image-5289" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3323-2.jpg" alt="" width="1024" height="768" /></a>
+
+Dalej kierowaliśmy się na północny wschód, nadal ciesząc się pogodą i widokami,
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3330-2.jpg"><img class="aligncenter size-full wp-image-5290" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3330-2.jpg" alt="" width="1024" height="768" /></a>
+
+aż dotarliśmy do ścieżki dydaktycznej na terenie Leśnictwa Łęg.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3332a.jpg"><img class="aligncenter size-full wp-image-5291" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3332a.jpg" alt="" width="1024" height="768" /></a>
+
+Wzdłuż szlaku rozstawione są tablice informacyjne przybliżające atrakcje kurpiowskiej puszczy.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3335a.jpg"><img class="aligncenter size-full wp-image-5292" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3335a.jpg" alt="" width="1024" height="768" /></a>
+
+W lesie wdrapać się można również na naprawdę wysoką górę, znajdującą się w pobliżu tzw. Krwawej Polany (według legendy bitwę toczyły tu wojska Napoleona).
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3352a.jpg"><img class="aligncenter size-full wp-image-5293" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3352a.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3353a.jpg"><img class="aligncenter size-full wp-image-5294" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3353a.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5661a.jpg"><img class="aligncenter size-full wp-image-5295" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5661a.jpg" alt="" width="1024" height="685" /></a>
+
+Wkrótce dotarliśmy do mostu na rzece Szkwa – łączącego ziemie Mazowsza i Podlasia. Most ten jest obecnie nieczynny ze względu na swój słaby stan techniczny, jednak okoliczni mieszkańcy wciąż z niego korzystają (sami byliśmy świadkami przejazdów samochodów po tych dziurawych deskach).
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3364-2.jpg"><img class="aligncenter size-full wp-image-5296" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3364-2.jpg" alt="" width="1024" height="768" /></a>
+
+Jedna z miejscowości na kolejnym odcinku naszej trasy - Dąbrówka, zaskoczyła nas widokiem mnóstwa kapliczek rozstawionych na sporym terenie przylegającym do tutejszego kościoła.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3387a.jpg"><img class="aligncenter size-full wp-image-5297" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3387a.jpg" alt="" width="1024" height="768" /></a>
+
+Kaplica Narodzenia:
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3388a.jpg"><img class="aligncenter size-full wp-image-5298" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3388a.jpg" alt="" width="1024" height="768" /></a>
+
+Zatrzymaliśmy się tu zatem na krótkie zwiedzanie.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3390a.jpg"><img class="aligncenter size-full wp-image-5299" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3390a.jpg" alt="" width="1024" height="768" /></a>
+
+Drewniany kościół został przeniesiony do Dąbrówki pod koniec XIX w. z miejscowości Kadzidło. Już wtedy miał ponad sto lat.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3393-2.jpg"><img class="aligncenter size-full wp-image-5300" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3393-2.jpg" alt="" width="1024" height="768" /></a>
+
+Ze względu na coraz późniejszą porę i czekający nas jeszcze tego dnia powrót do Warszawy, postanowiliśmy nieco skrócić naszą zaplanowaną wcześniej trasę. Początkowo trochę było nam żal już zawracać, ale chwilę później już o tym zapomnieliśmy, kiedy to naszym oczom ukazały się wielkie połacie wrzosów kwitnących wzdłuż lasu.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3408a.jpg"><img class="aligncenter size-full wp-image-5302" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3408a.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5681-2.jpg"><img class="aligncenter size-full wp-image-5301" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5681-2.jpg" alt="" width="1024" height="685" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3410a.jpg"><img class="aligncenter size-full wp-image-5303" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3410a.jpg" alt="" width="1024" height="768" /></a>
+
+Jeszcze jeden krótki przystanek zrobiliśmy sobie w miejscowości Lelis. Przywitały nas tu krowy chętnie pozujące do zdjęć ;)
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5690a.jpg"><img class="aligncenter size-full wp-image-5304" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5690a.jpg" alt="" width="1024" height="685" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5696a.jpg"><img class="aligncenter size-full wp-image-5306" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5696a.jpg" alt="" width="1024" height="685" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3412a.jpg"><img class="aligncenter size-full wp-image-5307" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3412a.jpg" alt="" width="1024" height="768" /></a>
+
+W miejscowości warto zatrzymać się przy kapliczce postawionej przez jednego z mieszkańców. Upamiętnia ona wydarzenia z 1830 r., kiedy to zmarło tutaj ok. 150 osób zarażonych cholerą. Choroba zabrała ich wszystkich w ciągu zaledwie 2 miesięcy.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3414a.jpg"><img class="aligncenter size-full wp-image-5308" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3414a.jpg" alt="" width="1024" height="768" /></a>
+
+Wnętrze kapliczki:
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3416a.jpg"><img class="aligncenter size-full wp-image-5309" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3416a.jpg" alt="" width="1024" height="768" /></a>
+
+Ostatni mały postój urządziliśmy sobie w gajówce Durlasy. Upamiętniono tutaj gajowego, Władysława Małkowskiego, który był również żołnierzem Korpusu Ochrony Pogranicza w Kampanii Wrześniowej 1939 r., zamordowanym przez NKWD. W tym miejscu obchodzone są również rocznice zbrodni katyńskiej oraz, jak widać na rozwieszonym banerze (zdjęcie poniżej), rocznice katastrofy smoleńskiej.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3419a.jpg"><img class="aligncenter size-full wp-image-5310" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3419a.jpg" alt="" width="1024" height="768" /></a>
+
+Stąd wróciliśmy już prosto na obiad do Ostrołęki (była i pizza i burger 😊), a później już niestety trzeba było jechać do domu, do Warszawy...
+                                    [post_title] => Ostrołęka i okolice - Dzień 2
+                                    [post_excerpt] => 
+                                    [post_status] => publish
+                                    [comment_status] => open
+                                    [ping_status] => open
+                                    [post_password] => 
+                                    [post_name] => ostroleka-i-okolice-dzien-2-ok-50-km
+                                    [to_ping] => 
+                                    [pinged] => 
+                                    [post_modified] => 2019-03-16 12:43:02
+                                    [post_modified_gmt] => 2019-03-16 11:43:02
+                                    [post_content_filtered] => 
+                                    [post_parent] => 0
+                                    [guid] => https://rowerempomazowszu.pl/?p=5083
+                                    [menu_order] => 0
+                                    [post_type] => trip
+                                    [post_mime_type] => 
+                                    [comment_count] => 0
+                                    [filter] => raw
+                                    [mb_origin] => 5378
+                                )
+
+                        )
+
+                )
+
+            [2] => WP_Post Object
+                (
+                    [ID] => 5386
+                    [post_author] => 1
+                    [post_date] => 2018-09-15 17:20:55
+                    [post_date_gmt] => 2018-09-15 15:20:55
+                    [post_content] => 
+                    [post_title] => Ostrołęka 1
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => ostroleka-1
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2019-02-19 19:44:38
+                    [post_modified_gmt] => 2019-02-19 18:44:38
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => https://rowerempomazowszu.pl/?post_type=route&#038;p=5386
+                    [menu_order] => 0
+                    [post_type] => route
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [trip] => Array
+                        (
+                            [0] => WP_Post Object
+                                (
+                                    [ID] => 5081
+                                    [post_author] => 3
+                                    [post_date] => 2018-09-15 19:14:33
+                                    [post_date_gmt] => 2018-09-15 17:14:33
+                                    [post_content] => Kiedy lato zmierzało ku końcowi, postanowiliśmy wybrać się na weekend gdzieś dalej od Warszawy. A najlepiej w jedno z tych mazowieckich miejsc, do których planowaliśmy dotrzeć już od paru lat i dotychczas tylko na planach się kończyło 😊 A zatem spakowaliśmy się i już w piątek wieczorem wyruszyliśmy do Ostrołęki.
+
+Sobotni poranek był nieco pochmurny, ale mimo to pogoda zapowiadała się całkiem dobrze. Naszą wycieczkę zaczęliśmy od odwiedzenia kilku punktów w samym mieście.
+
+Przy ul. Kościuszki zatrzymaliśmy się na chwilkę przy skwerze im. dr. Józefa Psarskiego, gdzie jakiś czas temu stanął również jemu poświęcony pomnik-ławeczka.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5601a.jpg"><img class="aligncenter size-full wp-image-5259" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5601a.jpg" alt="" width="1024" height="685" /></a>
+
+Był to zasłużony ostrołęcki lekarz oraz działacz oświatowy i społeczny – organizował m.in. tajne nauczanie czy założył bibliotekę, za co zsyłano go do Rosji.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3235a.jpg"><img class="aligncenter size-full wp-image-5260" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3235a.jpg" alt="" width="1024" height="768" /></a>
+
+Naprzeciw skweru znajduje się imponujący barokowy klasztor pobernardyński pw. Św. Antoniego.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3237a.jpg"><img class="aligncenter size-full wp-image-5261" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3237a.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3241-2.jpg"><img class="aligncenter size-full wp-image-5262" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3241-2.jpg" alt="" width="1024" height="768" /></a>
+
+Stąd udaliśmy się jeszcze na rynek, w którego części centralnej stoi pomnik generała Józefa Bema. Odsłonięto go na pamiątkę wydarzeń z powstania listopadowego i bitwy 26 maja 1831 r. kiedy to Józef Bem poprowadził atak Artylerii Lekkokonnej, który powstrzymał Rosjan i umożliwił armii gen. Skrzyneckiego dokonać odwrót na Warszawę.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3242a.jpg"><img class="aligncenter size-full wp-image-5263" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3242a.jpg" alt="" width="1024" height="768" /></a>
+
+Wyjeżdżając z Ostrołęki w kierunku południowo-zachodnim (w okolicy Osiedla Łęczysk) z wału można dostrzec wczesnośredniowieczne grodzisko z końca XI lub z XII wieku. To tutaj powstała Ostrołęka, a gród strzegł przeprawy przez Narew. Jako, że przebiegał tędy szlak handlowy z Mazowsza do Prus, funkcjonowała tu również osada targowa.
+
+Grodzisko, otoczone wałami obronnymi, posiadało plac o promieniu do 5 m. Dookoła znajdowała się fosa wypełniona wodą, funkcjonował most zwodzony, postawiono również drewnianą wieżę obserwacyjną.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3246-2.jpg"><img class="aligncenter size-full wp-image-5264" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3246-2.jpg" alt="" width="1024" height="768" /></a>
+
+Na drugim brzegu dojrzeć można dopływ Narwi - rzekę Omulew.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3248a.jpg"><img class="aligncenter size-full wp-image-5265" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3248a.jpg" alt="" width="1024" height="768" /></a>
+
+Przystanęliśmy też na chwilę przy moście kolejowym, gdzie mogliśmy popatrzeć na Narew i otaczającą ją przyrodę.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3253-2.jpg"><img class="aligncenter size-full wp-image-5266" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3253-2.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3255-2.jpg"><img class="aligncenter size-full wp-image-5267" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3255-2.jpg" alt="" width="1024" height="768" /></a>
+
+Koło wsi Dzbenin zboczyliśmy z drogi, aby odszukać lokalną ciekawostkę – "królewski kamień". Kiedyś tereny te porastała puszcza, a w niej odbywały się polowania. Do miłośników tego typu rozrywek należał również król Stefan Batory. Według legendy, podczas jednej z wypraw na łowy król został zraniony przez jelenia. Na szczęście, Batory zabrał ze sobą swego medyka, który go szybko opatrzył – a na „stół operacyjny” wybrał wielki kamień, który akurat tutaj się znajdował.
+
+Ogromny granitowy głaz narzutowy ma 12 metrów w obwodzie oraz ponad 4 metry wysokości i jest pomnikiem przyrody. Niestety dla nas okazał się bardzo trudno dostępny – zanurzony częściowo w starorzeczu Narwi, w bardzo zarośniętym o tej porze roku terenie.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3258-2.jpg"><img class="aligncenter size-full wp-image-5268" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3258-2.jpg" alt="" width="1024" height="768" /></a>
+
+Kolejny krótki przystanek zrobiliśmy sobie na małej plaży nad Narwią, skąd rozciągał się piękny widok na okolicę.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3261-2.jpg"><img class="aligncenter size-full wp-image-5269" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3261-2.jpg" alt="" width="1024" height="768" /></a>
+
+I jeszcze obrazki z drogi:
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3267a.jpg"><img class="aligncenter size-full wp-image-5270" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3267a.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3271a.jpg"><img class="aligncenter size-full wp-image-5271" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3271a.jpg" alt="" width="1021" height="768" /></a>
+
+W pewnym momencie na horyzoncie dostrzegliśmy trochę ciemniejsze chmury. Przejeżdżając przez wieś Janki Młode, Dżako przezornie zaproponował krótki postój ("w razie czego") na ławeczce pod daszkiem tutejszego przystanku… Jak tylko weszliśmy pod wiatę, po prostu lunęło jak z cebra! Aż takiej ulewy trudno było się spodziewać, a my mieliśmy naprawdę dużo szczęścia, że akurat znaleźliśmy się wśród zabudowań wsi, koło takiego idealnego przystanku. Ulewa zatrzymała nas na dobre pół godziny! Kiedy deszcz znacznie się zmniejszył, założyliśmy nasze peleryny i ruszyliśmy dalej.
+
+Czekały nas jeszcze kolejne atrakcje do zobaczenia.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3274a.jpg"><img class="aligncenter size-full wp-image-5272" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3274a.jpg" alt="" width="1024" height="768" /></a>
+
+Pierwszą z nich był starożytny kurhan z co najmniej I w n.e.! Znajduje się on pod Wojszami. Jest zbudowany z kamieni, ma wysokość ok. 2,5 metra. Prawdopodobnie pochowano w nim jednego z członków starszyzny plemiennej.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3276a.jpg"><img class="aligncenter size-full wp-image-5273" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3276a.jpg" alt="" width="1024" height="768" /></a>
+
+Obok kurhanu jest jeszcze jedna ciekawostka – kapliczka z 1820 r.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3278a.jpg"><img class="aligncenter size-full wp-image-5274" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3278a.jpg" alt="" width="1024" height="768" /></a>
+
+Ostatnim punktem dzisiejszej wyprawy było jeszcze jedno średniowieczne grodzisko znajdujące się na naszej drodze, w miejscowości… Grodzisk Duży. Aby do niego podjechać musieliśmy przebrnąć przez polne rozkopane dróżki, które namokły podczas deszczu. Jazda nimi nie należała do najprzyjemniejszych… Do samego grodziska prawie nie dawało się już nawet dojechać, więc w przypadku węższych opon w rowerze lepiej było nawet trochę podejść.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3283a.jpg"><img class="aligncenter size-full wp-image-5275" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3283a.jpg" alt="" width="1024" height="768" /></a>
+
+Grodzisko funkcjonowało tu w X-XII w. Jego średnica wynosi 80 m., a wysokość wałów to ponad 3 metry od strony zewnętrznej. Stacjonowały tu załogi wojskowe broniące państwa piastowskiego przed Jaćwingami, Litwinami oraz Prusami.
+
+Kiedy opuściliśmy tereny grodziska, wreszcie rozpogodziło się. Dzięki temu mogliśmy się porozgrzewać w pięknym słońcu i już wysuszeni wrócić do Ostrołęki.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3286a.jpg"><img class="aligncenter size-full wp-image-5276" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3286a.jpg" alt="" width="576" height="768" /></a>
+                                    [post_title] => Ostrołęka i okolice - Dzień 1
+                                    [post_excerpt] => 
+                                    [post_status] => publish
+                                    [comment_status] => open
+                                    [ping_status] => open
+                                    [post_password] => 
+                                    [post_name] => ostroleka-i-okolice-dzien-1-ok-54-km
+                                    [to_ping] => 
+                                    [pinged] => 
+                                    [post_modified] => 2019-03-16 12:41:30
+                                    [post_modified_gmt] => 2019-03-16 11:41:30
+                                    [post_content_filtered] => 
+                                    [post_parent] => 0
+                                    [guid] => https://rowerempomazowszu.pl/?p=5081
+                                    [menu_order] => 0
+                                    [post_type] => trip
+                                    [post_mime_type] => 
+                                    [comment_count] => 0
+                                    [filter] => raw
+                                    [mb_origin] => 5386
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [post_count] => 3
     [current_post] => -1
     [in_the_loop] => 
+    [post] => WP_Post Object
+        (
+            [ID] => 6999
+            [post_author] => 1
+            [post_date] => 2019-08-06 13:24:20
+            [post_date_gmt] => 2019-08-06 11:24:20
+            [post_content] => 
+            [post_title] => Ozarow-Brwinow
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => ozarow-brwinow
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2019-08-17 20:26:22
+            [post_modified_gmt] => 2019-08-17 18:26:22
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => https://rowerempomazowszu.pl/?post_type=route&#038;p=6999
+            [menu_order] => 0
+            [post_type] => route
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [trip] => Array
+                (
+                )
+
+        )
+
     [comment_count] => 0
     [current_comment] => -1
-    [found_posts] => 0
-    [max_num_pages] => 0
+    [found_posts] => 43
+    [max_num_pages] => 15
     [max_num_comment_pages] => 0
     [is_single] => 
     [is_preview] => 
@@ -363,6 +657,7 @@
     [is_comment_feed] => 
     [is_trackback] => 
     [is_home] => 
+    [is_privacy_policy] => 
     [is_404] => 
     [is_embed] => 
     [is_paged] => 
@@ -371,8 +666,8 @@
     [is_singular] => 
     [is_robots] => 
     [is_posts_page] => 
-    [is_post_type_archive] => 
-    [query_vars_hash:WP_Query:private] => 6e12fed4e0d153a03d7fb0c384213534
+    [is_post_type_archive] => 1
+    [query_vars_hash:WP_Query:private] => fac74dcf1c2fa2c376602d6004cf57ed
     [query_vars_changed:WP_Query:private] => 
     [thumbnails_cached] => 
     [stopwords:WP_Query:private] => 
@@ -390,51 +685,67 @@
 
 )
 
-2019-03-28 19:14:10	WP_Term Object
-(
-    [term_id] => 520
-    [name] => Mazowsze
-    [slug] => mazowsze
-    [term_group] => 0
-    [term_taxonomy_id] => 520
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 0
-    [count] => 105
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 19:14:10	------$post1-----
-2019-03-28 19:14:10	WP_Query Object
+2019-08-18 11:35:52	Mazowsze
+2019-08-18 11:35:53	WP_Query Object
 (
     [query] => Array
         (
-            [relationship] => Array
+            [post_type] => route
+            [posts_per_page] => 3
+            [tax_query] => Array
                 (
-                    [id] => trips_to_routs
-                    [to] => 5376
-                )
-
-            [nopaging] => 1
-        )
-
-    [query_vars] => Array
-        (
-            [relationship] => Array
-                (
-                    [id] => trips_to_routs
-                    [id_field] => ID
-                    [direction] => to
-                    [items] => Array
+                    [relation] => AND
+                    [0] => Array
                         (
-                            [0] => 5376
+                            [taxonomy] => locality
+                            [field] => slug
+                            [terms] => mazowsze
+                        )
+
+                    [1] => Array
+                        (
+                            [taxonomy] => locality
+                            [field] => slug
+                            [terms] => Array
+                                (
+                                    [0] => warszawa
+                                )
+
+                            [operator] => NOT IN
                         )
 
                 )
 
-            [nopaging] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [post_type] => route
+            [posts_per_page] => 3
+            [tax_query] => Array
+                (
+                    [relation] => AND
+                    [0] => Array
+                        (
+                            [taxonomy] => locality
+                            [field] => slug
+                            [terms] => mazowsze
+                        )
+
+                    [1] => Array
+                        (
+                            [taxonomy] => locality
+                            [field] => slug
+                            [terms] => Array
+                                (
+                                    [0] => warszawa
+                                )
+
+                            [operator] => NOT IN
+                        )
+
+                )
+
             [error] => 
             [m] => 
             [p] => 0
@@ -532,39 +843,694 @@
                 (
                 )
 
-            [post_type] => any
+            [ignore_sticky_posts] => 
             [suppress_filters] => 
-            [ignore_sticky_posts] => 1
+            [cache_results] => 1
+            [update_post_term_cache] => 1
+            [lazy_load_term_meta] => 1
+            [update_post_meta_cache] => 1
+            [nopaging] => 
+            [comments_per_page] => 50
+            [no_found_rows] => 
+            [taxonomy] => locality
+            [term] => mazowsze
+            [order] => DESC
         )
 
     [tax_query] => WP_Tax_Query Object
         (
             [queries] => Array
                 (
+                    [relation] => AND
+                    [0] => Array
+                        (
+                            [taxonomy] => locality
+                            [terms] => Array
+                                (
+                                    [0] => mazowsze
+                                )
+
+                            [field] => slug
+                            [operator] => IN
+                            [include_children] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [taxonomy] => locality
+                            [terms] => Array
+                                (
+                                    [0] => warszawa
+                                )
+
+                            [field] => slug
+                            [operator] => NOT IN
+                            [include_children] => 1
+                        )
+
                 )
 
             [relation] => AND
             [table_aliases:protected] => Array
                 (
+                    [0] => wp_term_relationships
                 )
 
             [queried_terms] => Array
                 (
+                    [locality] => Array
+                        (
+                            [terms] => Array
+                                (
+                                    [0] => mazowsze
+                                )
+
+                            [field] => slug
+                        )
+
                 )
 
-            [primary_table] => 
-            [primary_id_column] => 
+            [primary_table] => wp_posts
+            [primary_id_column] => ID
         )
 
-    [meta_query] => 
+    [meta_query] => WP_Meta_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => 
+            [meta_table] => 
+            [meta_id_column] => 
+            [primary_table] => 
+            [primary_id_column] => 
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [clauses:protected] => Array
+                (
+                )
+
+            [has_or_relation:protected] => 
+        )
+
     [date_query] => 
-    [post_count] => 0
+    [request] => SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  LEFT JOIN wp_term_relationships ON (wp_posts.ID = wp_term_relationships.object_id) WHERE 1=1  AND ( 
+  wp_term_relationships.term_taxonomy_id IN (520,521,522,523,524,525,528,529,530,531,532,533,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,572,573,574,575,576,577,578,581,582,583,584,585,586,587,588,589,590,593,594,595,596,600,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,640) 
+  AND 
+  wp_posts.ID NOT IN (
+				SELECT object_id
+				FROM wp_term_relationships
+				WHERE term_taxonomy_id IN (521)
+			)
+) AND wp_posts.post_type = 'route' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'private') GROUP BY wp_posts.ID ORDER BY wp_posts.post_date DESC LIMIT 0, 3
+    [posts] => Array
+        (
+            [0] => WP_Post Object
+                (
+                    [ID] => 6999
+                    [post_author] => 1
+                    [post_date] => 2019-08-06 13:24:20
+                    [post_date_gmt] => 2019-08-06 11:24:20
+                    [post_content] => 
+                    [post_title] => Ozarow-Brwinow
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => ozarow-brwinow
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2019-08-17 20:26:22
+                    [post_modified_gmt] => 2019-08-17 18:26:22
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => https://rowerempomazowszu.pl/?post_type=route&#038;p=6999
+                    [menu_order] => 0
+                    [post_type] => route
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [trip] => Array
+                        (
+                            [0] => WP_Post Object
+                                (
+                                    [ID] => 6964
+                                    [post_author] => 3
+                                    [post_date] => 2019-06-08 23:01:59
+                                    [post_date_gmt] => 2019-06-08 21:01:59
+                                    [post_content] => Na naszą drugą wycieczkę w tym roku wyruszyliśmy z Ożarowa Mazowieckiego.
+
+Pierwszy przystanek zrobiliśmy sobie w Duchnicach, gdzie zabytkowa aleja wysadzana lipami prowadzi do neorenesansowego pałacyku wybudowanego w drugiej połowie XIX w. Budynek powstał według projektu Stanisława Kierbedzia na podobieństwo włoskiej neorenesansowej willi. Ze względu na to, że był później wielokrotnie przebudowywany, zatracił niestety pierwotne cechy.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4786a.jpg"><img class="aligncenter size-large wp-image-6965" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4786a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+Z Duchnic skierowaliśmy się na południe, do Pruszkowa. Tutaj wjechaliśmy od strony Parku Kultury i Wypoczynku Mazowsze, zwanego przez mieszkańców Gliniankami (wcześniej wydobywano tu glinę). Miejsce to zostało jakiś czas temu odnowione, powstały pomosty, plac zabaw czy miejsca do rozpalenia ogniska.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0255a.jpg"><img class="aligncenter wp-image-6966 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0255a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+Jadąc dalej, dotarliśmy do kolejnego parku - Anielin i położonego po drugiej stronie ulicy Bolesława Prusa, zabytkowego Parku Potulickich.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0263a.jpg"><img class="aligncenter wp-image-6967 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0263a-1024x681.jpg" alt="" width="1024" height="681" /></a>
+
+Na jego terenie, w krajobrazie dominują stawy, a na największym z nich znajduje się wyspa.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0266a.jpg"><img class="aligncenter wp-image-6968 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0266a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4798a.jpg"><img class="aligncenter wp-image-6969 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4798a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0269a.jpg"><img class="aligncenter wp-image-6970 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0269a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+Od strony południowo-zachodniej parku dotarliśmy do Muzeum Starożytnego Hutnictwa. Mieści się ono w pałacyku Potulickich, pochodzącego z początku XIX wieku.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4805a.jpg"><img class="aligncenter wp-image-6971 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4805a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+Muzeum powstało w tym miejscu nie bez przyczyny - jak się okazuje, na początku naszej ery istniał w tym rejonie drugi co do wielkości ośrodek metalurgiczny w Europie! Wytapiano tu żelazo pochodzące z rudy darniowej.
+
+Dodatkową ciekawostką jest znajdujący się w muzeum fortepian pochodzący  1831 r. - jeden z najstarszych sprawnych w kraju! Do gry przy nim zasiadają co jakiś czas muzyczne sławy.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0271a.jpg"><img class="aligncenter wp-image-6972 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0271a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+Naprzeciwko obejrzeć można klasycystyczny pałac Potulickich zbudowany w latach 20. XIX wieku. Obecnie swoją siedzibę ma tu Urząd Stanu Cywilnego, co potwierdza nawet poniższe zdjęcie :)
+
+Pobierająca się właśnie para powinna zaznać szczęścia lub bogactwa na wspólnej drodze - w zależności od wyznawanego przesądu ;) , ponieważ kiedy właśnie przybyli na ceremonię, rozpadał się drobny deszcz. My schroniliśmy się pod drzewami otaczającymi fontannę naprzeciwko budynku.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0274a.jpg"><img class="aligncenter wp-image-6973 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0274a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+W XIX wieku Pruszków był popularną miejscowością letniskową dla mieszkańców stolicy, którzy budowali tu swoje domy. Przejeżdżając przez centrum miasta, dotarliśmy m.in. do zabytkowego Pałacyku "Sokoła" pochodzącego z 1876 roku. Pierwotnie należał on do właściciela wytwórni kafli, Ignacego Więckowskiego. Obecnie używana nazwa pałacu, pochodzi z czasów międzywojennych, kiedy to został wynajęty Towarzystwu Gimnastycznemu "Sokół". Wtedy też pałac stanowił prężny ośrodek kulturalno-sportowy. Wewnątrz mieściło się m.in. kino. Po II wojnie światowej swoją siedzibę miał tu dom kultury, a ostatnio obiekt został gruntownie wyremontowany.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4820a.jpg"><img class="aligncenter wp-image-6974 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4820a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+Na koniec naszej wizyty w Pruszkowie, podjechaliśmy jeszcze na ulicę Ołówkową, pod dawne budynki słynnej fabryki ołówków i kredek (np. znanych przez większość z nas kredek "Bambino").
+
+Zakład "St. Majewski" powstał tu już w 1889 r. i szybko zasłynął z wysokiej jakości produktów (np. podczas Wystawy Światowej w Paryżu 1935 r. ołówek "Polonia 340" otrzymał złoty medal).
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0282a.jpg"><img class="aligncenter wp-image-6975 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0282a-1024x682.jpg" alt="" width="1024" height="682" /></a>
+
+Co interesujące, podczas I wojny światowej, zakład ten został ostrzelany i zniszczony przez wojsko niemieckie dowodzone przez majora Fabera, mimo że nie stanowił w zasadzie żadnego istotnego punktu obrony, położony z boku, poza linią walk. Produkcja musiała zatem zostać zatrzymana na dłuższy czas. Sytuacja ta przestaje jednak być dziwna, kiedy zwrócimy uwagę, że ów major był ściśle związany ze słynną niemiecką fabryką kredek i ołówków "Faber-Castell" ...
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4824a.jpg"><img class="aligncenter wp-image-6976 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4824a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+Z Pruszkowa pojechaliśmy do Brwinowa, gdzie na chwilę zatrzymaliśmy się w parku miejskim.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4830a.jpg"><img class="aligncenter wp-image-6977 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4830a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+W dalszej drodze towarzyszyły nam urocze maki :)
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4831a.jpg"><img class="aligncenter wp-image-6978 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4831a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+Skierowaliśmy się z powrotem na Ożarów Mazowiecki.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4833a.jpg"><img class="aligncenter wp-image-6979 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4833a-768x1024.jpg" alt="" width="768" height="1024" /></a>
+
+Jeszcze jeden przystanek zrobiliśmy sobie w Ołtarzewie, w tamtejszym parku miejskim.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0287a.jpg"><img class="aligncenter wp-image-6980 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0287a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+Rosnące w tym miejscu drzewa pamiętają jeszcze czasy, kiedy to istniał tutaj niewielki pałacyk należący (wraz z przyległymi stawami) do majątku Stanisława Kierbedzia, słynnego budowniczego mostów (np. pierwszego żelaznego mostu w Warszawie).
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4837a.jpg"><img class="aligncenter wp-image-6981 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4837a-766x1024.jpg" alt="" width="766" height="1024" /></a>
+
+Z Ołtarzewa szybko wróciliśmy do Ożarowa, gdzie czym prędzej udaliśmy się na zasłużoną pizzę.
+
+&nbsp;
+                                    [post_title] => Piękne parki, starożytne żelazo i niezwykła historia ołówków...
+                                    [post_excerpt] => 
+                                    [post_status] => publish
+                                    [comment_status] => open
+                                    [ping_status] => open
+                                    [post_password] => 
+                                    [post_name] => piekne-parki-starozytne-zelazo-i-niezwykla-historia-olowkow
+                                    [to_ping] => 
+                                    [pinged] => 
+                                    [post_modified] => 2019-08-18 13:35:34
+                                    [post_modified_gmt] => 2019-08-18 11:35:34
+                                    [post_content_filtered] => 
+                                    [post_parent] => 0
+                                    [guid] => https://rowerempomazowszu.pl/?post_type=trip&#038;p=6964
+                                    [menu_order] => 0
+                                    [post_type] => trip
+                                    [post_mime_type] => 
+                                    [comment_count] => 0
+                                    [filter] => raw
+                                    [mb_origin] => 6999
+                                )
+
+                        )
+
+                )
+
+            [1] => WP_Post Object
+                (
+                    [ID] => 5378
+                    [post_author] => 1
+                    [post_date] => 2018-09-16 21:11:11
+                    [post_date_gmt] => 2018-09-16 19:11:11
+                    [post_content] => opis trasy
+                    [post_title] => Ostrołęka 2
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => ostroleka-2
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2019-02-23 12:43:57
+                    [post_modified_gmt] => 2019-02-23 11:43:57
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => https://rowerempomazowszu.pl/?post_type=route&#038;p=5378
+                    [menu_order] => 0
+                    [post_type] => route
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [trip] => Array
+                        (
+                            [0] => WP_Post Object
+                                (
+                                    [ID] => 5083
+                                    [post_author] => 3
+                                    [post_date] => 2018-09-16 19:15:15
+                                    [post_date_gmt] => 2018-09-16 17:15:15
+                                    [post_content] => Dzisiejszy dzień zaczął nam się dość nietypowo. Kiedy już mieliśmy startować z wycieczką, okazało się, że w jednym z rowerów mamy kapeć... Zaczęliśmy zatem od wymiany dętki, ale uznaliśmy zgodnie, że był to w sumie lepszy moment, niż miałoby nam się to przydarzyć później na trasie...
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3302a.jpg"><img class="aligncenter size-full wp-image-5279" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3302a.jpg" alt="" width="1024" height="768" /></a>
+
+Kiedy już wyruszyliśmy, najpierw skierowaliśmy się na drugi brzeg Narwi, aby podjechać pod Pomnik-Mauzoleum bitwy pod Ostrołęką 1931 r.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3307-2.jpg"><img class="aligncenter size-full wp-image-5280" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3307-2.jpg" alt="" width="1024" height="768" /></a>
+
+Podczas powstania listopadowego w tym miejscu istniał Fort Bema.
+
+Pomnik zaczęto budować już w latach 30. XX wieku, ale przede wszystkim ze względu na brak funduszy, na jego finalizację trzeba było czekać aż do 2012 r. Z całą historią zapoznać się można w ciekawym <a href="http://weekend.gazeta.pl/weekend/1,152121,20068135,pomnik-szczerych-serc-nowe-stare-mauzoleum-upamietniajace.html">artykule Filipa Springera</a>.
+
+Betonowa kaplica z podziemnym muzeum multimedialnym:
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3309a.jpg"><img class="aligncenter size-full wp-image-5281" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3309a.jpg" alt="" width="1024" height="768" /></a>
+
+Na terenie wystawione są też repliki armat i jednorogów z początku XIX w. oraz wyrzutni Bema.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3311-2.jpg"><img class="aligncenter size-full wp-image-5282" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3311-2.jpg" alt="" width="1024" height="768" /></a>
+
+Po obejrzeniu mauzoleum, skierowaliśmy się nad rzekę, na wał.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3313-2.jpg"><img class="aligncenter size-full wp-image-5283" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3313-2.jpg" alt="" width="1024" height="768" /></a>
+
+Dzisiejszy dzień był przepiękny, krajobraz dookoła również 😊
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3318-2.jpg"><img class="aligncenter size-full wp-image-5285" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3318-2.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3320-2.jpg"><img class="aligncenter size-full wp-image-5286" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3320-2.jpg" alt="" width="1024" height="768" /></a>
+
+Po drodze minęliśmy kontrowersyjną hałdę popiołów tutejszych zakładów. W ostatnim czasie znacznie się zmniejszyła.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5646a.jpg"><img class="aligncenter size-full wp-image-5288" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5646a.jpg" alt="" width="1024" height="685" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3321-2.jpg"><img class="aligncenter size-full wp-image-5287" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3321-2.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3323-2.jpg"><img class="aligncenter size-full wp-image-5289" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3323-2.jpg" alt="" width="1024" height="768" /></a>
+
+Dalej kierowaliśmy się na północny wschód, nadal ciesząc się pogodą i widokami,
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3330-2.jpg"><img class="aligncenter size-full wp-image-5290" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3330-2.jpg" alt="" width="1024" height="768" /></a>
+
+aż dotarliśmy do ścieżki dydaktycznej na terenie Leśnictwa Łęg.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3332a.jpg"><img class="aligncenter size-full wp-image-5291" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3332a.jpg" alt="" width="1024" height="768" /></a>
+
+Wzdłuż szlaku rozstawione są tablice informacyjne przybliżające atrakcje kurpiowskiej puszczy.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3335a.jpg"><img class="aligncenter size-full wp-image-5292" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3335a.jpg" alt="" width="1024" height="768" /></a>
+
+W lesie wdrapać się można również na naprawdę wysoką górę, znajdującą się w pobliżu tzw. Krwawej Polany (według legendy bitwę toczyły tu wojska Napoleona).
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3352a.jpg"><img class="aligncenter size-full wp-image-5293" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3352a.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3353a.jpg"><img class="aligncenter size-full wp-image-5294" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3353a.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5661a.jpg"><img class="aligncenter size-full wp-image-5295" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5661a.jpg" alt="" width="1024" height="685" /></a>
+
+Wkrótce dotarliśmy do mostu na rzece Szkwa – łączącego ziemie Mazowsza i Podlasia. Most ten jest obecnie nieczynny ze względu na swój słaby stan techniczny, jednak okoliczni mieszkańcy wciąż z niego korzystają (sami byliśmy świadkami przejazdów samochodów po tych dziurawych deskach).
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3364-2.jpg"><img class="aligncenter size-full wp-image-5296" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3364-2.jpg" alt="" width="1024" height="768" /></a>
+
+Jedna z miejscowości na kolejnym odcinku naszej trasy - Dąbrówka, zaskoczyła nas widokiem mnóstwa kapliczek rozstawionych na sporym terenie przylegającym do tutejszego kościoła.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3387a.jpg"><img class="aligncenter size-full wp-image-5297" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3387a.jpg" alt="" width="1024" height="768" /></a>
+
+Kaplica Narodzenia:
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3388a.jpg"><img class="aligncenter size-full wp-image-5298" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3388a.jpg" alt="" width="1024" height="768" /></a>
+
+Zatrzymaliśmy się tu zatem na krótkie zwiedzanie.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3390a.jpg"><img class="aligncenter size-full wp-image-5299" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3390a.jpg" alt="" width="1024" height="768" /></a>
+
+Drewniany kościół został przeniesiony do Dąbrówki pod koniec XIX w. z miejscowości Kadzidło. Już wtedy miał ponad sto lat.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3393-2.jpg"><img class="aligncenter size-full wp-image-5300" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3393-2.jpg" alt="" width="1024" height="768" /></a>
+
+Ze względu na coraz późniejszą porę i czekający nas jeszcze tego dnia powrót do Warszawy, postanowiliśmy nieco skrócić naszą zaplanowaną wcześniej trasę. Początkowo trochę było nam żal już zawracać, ale chwilę później już o tym zapomnieliśmy, kiedy to naszym oczom ukazały się wielkie połacie wrzosów kwitnących wzdłuż lasu.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3408a.jpg"><img class="aligncenter size-full wp-image-5302" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3408a.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5681-2.jpg"><img class="aligncenter size-full wp-image-5301" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5681-2.jpg" alt="" width="1024" height="685" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3410a.jpg"><img class="aligncenter size-full wp-image-5303" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3410a.jpg" alt="" width="1024" height="768" /></a>
+
+Jeszcze jeden krótki przystanek zrobiliśmy sobie w miejscowości Lelis. Przywitały nas tu krowy chętnie pozujące do zdjęć ;)
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5690a.jpg"><img class="aligncenter size-full wp-image-5304" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5690a.jpg" alt="" width="1024" height="685" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5696a.jpg"><img class="aligncenter size-full wp-image-5306" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5696a.jpg" alt="" width="1024" height="685" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3412a.jpg"><img class="aligncenter size-full wp-image-5307" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3412a.jpg" alt="" width="1024" height="768" /></a>
+
+W miejscowości warto zatrzymać się przy kapliczce postawionej przez jednego z mieszkańców. Upamiętnia ona wydarzenia z 1830 r., kiedy to zmarło tutaj ok. 150 osób zarażonych cholerą. Choroba zabrała ich wszystkich w ciągu zaledwie 2 miesięcy.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3414a.jpg"><img class="aligncenter size-full wp-image-5308" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3414a.jpg" alt="" width="1024" height="768" /></a>
+
+Wnętrze kapliczki:
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3416a.jpg"><img class="aligncenter size-full wp-image-5309" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3416a.jpg" alt="" width="1024" height="768" /></a>
+
+Ostatni mały postój urządziliśmy sobie w gajówce Durlasy. Upamiętniono tutaj gajowego, Władysława Małkowskiego, który był również żołnierzem Korpusu Ochrony Pogranicza w Kampanii Wrześniowej 1939 r., zamordowanym przez NKWD. W tym miejscu obchodzone są również rocznice zbrodni katyńskiej oraz, jak widać na rozwieszonym banerze (zdjęcie poniżej), rocznice katastrofy smoleńskiej.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3419a.jpg"><img class="aligncenter size-full wp-image-5310" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3419a.jpg" alt="" width="1024" height="768" /></a>
+
+Stąd wróciliśmy już prosto na obiad do Ostrołęki (była i pizza i burger 😊), a później już niestety trzeba było jechać do domu, do Warszawy...
+                                    [post_title] => Ostrołęka i okolice - Dzień 2
+                                    [post_excerpt] => 
+                                    [post_status] => publish
+                                    [comment_status] => open
+                                    [ping_status] => open
+                                    [post_password] => 
+                                    [post_name] => ostroleka-i-okolice-dzien-2-ok-50-km
+                                    [to_ping] => 
+                                    [pinged] => 
+                                    [post_modified] => 2019-03-16 12:43:02
+                                    [post_modified_gmt] => 2019-03-16 11:43:02
+                                    [post_content_filtered] => 
+                                    [post_parent] => 0
+                                    [guid] => https://rowerempomazowszu.pl/?p=5083
+                                    [menu_order] => 0
+                                    [post_type] => trip
+                                    [post_mime_type] => 
+                                    [comment_count] => 0
+                                    [filter] => raw
+                                    [mb_origin] => 5378
+                                )
+
+                        )
+
+                )
+
+            [2] => WP_Post Object
+                (
+                    [ID] => 5386
+                    [post_author] => 1
+                    [post_date] => 2018-09-15 17:20:55
+                    [post_date_gmt] => 2018-09-15 15:20:55
+                    [post_content] => 
+                    [post_title] => Ostrołęka 1
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => ostroleka-1
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2019-02-19 19:44:38
+                    [post_modified_gmt] => 2019-02-19 18:44:38
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => https://rowerempomazowszu.pl/?post_type=route&#038;p=5386
+                    [menu_order] => 0
+                    [post_type] => route
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [trip] => Array
+                        (
+                            [0] => WP_Post Object
+                                (
+                                    [ID] => 5081
+                                    [post_author] => 3
+                                    [post_date] => 2018-09-15 19:14:33
+                                    [post_date_gmt] => 2018-09-15 17:14:33
+                                    [post_content] => Kiedy lato zmierzało ku końcowi, postanowiliśmy wybrać się na weekend gdzieś dalej od Warszawy. A najlepiej w jedno z tych mazowieckich miejsc, do których planowaliśmy dotrzeć już od paru lat i dotychczas tylko na planach się kończyło 😊 A zatem spakowaliśmy się i już w piątek wieczorem wyruszyliśmy do Ostrołęki.
+
+Sobotni poranek był nieco pochmurny, ale mimo to pogoda zapowiadała się całkiem dobrze. Naszą wycieczkę zaczęliśmy od odwiedzenia kilku punktów w samym mieście.
+
+Przy ul. Kościuszki zatrzymaliśmy się na chwilkę przy skwerze im. dr. Józefa Psarskiego, gdzie jakiś czas temu stanął również jemu poświęcony pomnik-ławeczka.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5601a.jpg"><img class="aligncenter size-full wp-image-5259" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMGP5601a.jpg" alt="" width="1024" height="685" /></a>
+
+Był to zasłużony ostrołęcki lekarz oraz działacz oświatowy i społeczny – organizował m.in. tajne nauczanie czy założył bibliotekę, za co zsyłano go do Rosji.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3235a.jpg"><img class="aligncenter size-full wp-image-5260" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3235a.jpg" alt="" width="1024" height="768" /></a>
+
+Naprzeciw skweru znajduje się imponujący barokowy klasztor pobernardyński pw. Św. Antoniego.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3237a.jpg"><img class="aligncenter size-full wp-image-5261" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3237a.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3241-2.jpg"><img class="aligncenter size-full wp-image-5262" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3241-2.jpg" alt="" width="1024" height="768" /></a>
+
+Stąd udaliśmy się jeszcze na rynek, w którego części centralnej stoi pomnik generała Józefa Bema. Odsłonięto go na pamiątkę wydarzeń z powstania listopadowego i bitwy 26 maja 1831 r. kiedy to Józef Bem poprowadził atak Artylerii Lekkokonnej, który powstrzymał Rosjan i umożliwił armii gen. Skrzyneckiego dokonać odwrót na Warszawę.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3242a.jpg"><img class="aligncenter size-full wp-image-5263" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3242a.jpg" alt="" width="1024" height="768" /></a>
+
+Wyjeżdżając z Ostrołęki w kierunku południowo-zachodnim (w okolicy Osiedla Łęczysk) z wału można dostrzec wczesnośredniowieczne grodzisko z końca XI lub z XII wieku. To tutaj powstała Ostrołęka, a gród strzegł przeprawy przez Narew. Jako, że przebiegał tędy szlak handlowy z Mazowsza do Prus, funkcjonowała tu również osada targowa.
+
+Grodzisko, otoczone wałami obronnymi, posiadało plac o promieniu do 5 m. Dookoła znajdowała się fosa wypełniona wodą, funkcjonował most zwodzony, postawiono również drewnianą wieżę obserwacyjną.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3246-2.jpg"><img class="aligncenter size-full wp-image-5264" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3246-2.jpg" alt="" width="1024" height="768" /></a>
+
+Na drugim brzegu dojrzeć można dopływ Narwi - rzekę Omulew.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3248a.jpg"><img class="aligncenter size-full wp-image-5265" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3248a.jpg" alt="" width="1024" height="768" /></a>
+
+Przystanęliśmy też na chwilę przy moście kolejowym, gdzie mogliśmy popatrzeć na Narew i otaczającą ją przyrodę.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3253-2.jpg"><img class="aligncenter size-full wp-image-5266" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3253-2.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3255-2.jpg"><img class="aligncenter size-full wp-image-5267" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3255-2.jpg" alt="" width="1024" height="768" /></a>
+
+Koło wsi Dzbenin zboczyliśmy z drogi, aby odszukać lokalną ciekawostkę – "królewski kamień". Kiedyś tereny te porastała puszcza, a w niej odbywały się polowania. Do miłośników tego typu rozrywek należał również król Stefan Batory. Według legendy, podczas jednej z wypraw na łowy król został zraniony przez jelenia. Na szczęście, Batory zabrał ze sobą swego medyka, który go szybko opatrzył – a na „stół operacyjny” wybrał wielki kamień, który akurat tutaj się znajdował.
+
+Ogromny granitowy głaz narzutowy ma 12 metrów w obwodzie oraz ponad 4 metry wysokości i jest pomnikiem przyrody. Niestety dla nas okazał się bardzo trudno dostępny – zanurzony częściowo w starorzeczu Narwi, w bardzo zarośniętym o tej porze roku terenie.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3258-2.jpg"><img class="aligncenter size-full wp-image-5268" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3258-2.jpg" alt="" width="1024" height="768" /></a>
+
+Kolejny krótki przystanek zrobiliśmy sobie na małej plaży nad Narwią, skąd rozciągał się piękny widok na okolicę.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3261-2.jpg"><img class="aligncenter size-full wp-image-5269" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3261-2.jpg" alt="" width="1024" height="768" /></a>
+
+I jeszcze obrazki z drogi:
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3267a.jpg"><img class="aligncenter size-full wp-image-5270" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3267a.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3271a.jpg"><img class="aligncenter size-full wp-image-5271" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3271a.jpg" alt="" width="1021" height="768" /></a>
+
+W pewnym momencie na horyzoncie dostrzegliśmy trochę ciemniejsze chmury. Przejeżdżając przez wieś Janki Młode, Dżako przezornie zaproponował krótki postój ("w razie czego") na ławeczce pod daszkiem tutejszego przystanku… Jak tylko weszliśmy pod wiatę, po prostu lunęło jak z cebra! Aż takiej ulewy trudno było się spodziewać, a my mieliśmy naprawdę dużo szczęścia, że akurat znaleźliśmy się wśród zabudowań wsi, koło takiego idealnego przystanku. Ulewa zatrzymała nas na dobre pół godziny! Kiedy deszcz znacznie się zmniejszył, założyliśmy nasze peleryny i ruszyliśmy dalej.
+
+Czekały nas jeszcze kolejne atrakcje do zobaczenia.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3274a.jpg"><img class="aligncenter size-full wp-image-5272" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3274a.jpg" alt="" width="1024" height="768" /></a>
+
+Pierwszą z nich był starożytny kurhan z co najmniej I w n.e.! Znajduje się on pod Wojszami. Jest zbudowany z kamieni, ma wysokość ok. 2,5 metra. Prawdopodobnie pochowano w nim jednego z członków starszyzny plemiennej.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3276a.jpg"><img class="aligncenter size-full wp-image-5273" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3276a.jpg" alt="" width="1024" height="768" /></a>
+
+Obok kurhanu jest jeszcze jedna ciekawostka – kapliczka z 1820 r.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3278a.jpg"><img class="aligncenter size-full wp-image-5274" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3278a.jpg" alt="" width="1024" height="768" /></a>
+
+Ostatnim punktem dzisiejszej wyprawy było jeszcze jedno średniowieczne grodzisko znajdujące się na naszej drodze, w miejscowości… Grodzisk Duży. Aby do niego podjechać musieliśmy przebrnąć przez polne rozkopane dróżki, które namokły podczas deszczu. Jazda nimi nie należała do najprzyjemniejszych… Do samego grodziska prawie nie dawało się już nawet dojechać, więc w przypadku węższych opon w rowerze lepiej było nawet trochę podejść.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3283a.jpg"><img class="aligncenter size-full wp-image-5275" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3283a.jpg" alt="" width="1024" height="768" /></a>
+
+Grodzisko funkcjonowało tu w X-XII w. Jego średnica wynosi 80 m., a wysokość wałów to ponad 3 metry od strony zewnętrznej. Stacjonowały tu załogi wojskowe broniące państwa piastowskiego przed Jaćwingami, Litwinami oraz Prusami.
+
+Kiedy opuściliśmy tereny grodziska, wreszcie rozpogodziło się. Dzięki temu mogliśmy się porozgrzewać w pięknym słońcu i już wysuszeni wrócić do Ostrołęki.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3286a.jpg"><img class="aligncenter size-full wp-image-5276" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2018/09/IMG_3286a.jpg" alt="" width="576" height="768" /></a>
+                                    [post_title] => Ostrołęka i okolice - Dzień 1
+                                    [post_excerpt] => 
+                                    [post_status] => publish
+                                    [comment_status] => open
+                                    [ping_status] => open
+                                    [post_password] => 
+                                    [post_name] => ostroleka-i-okolice-dzien-1-ok-54-km
+                                    [to_ping] => 
+                                    [pinged] => 
+                                    [post_modified] => 2019-03-16 12:41:30
+                                    [post_modified_gmt] => 2019-03-16 11:41:30
+                                    [post_content_filtered] => 
+                                    [post_parent] => 0
+                                    [guid] => https://rowerempomazowszu.pl/?p=5081
+                                    [menu_order] => 0
+                                    [post_type] => trip
+                                    [post_mime_type] => 
+                                    [comment_count] => 0
+                                    [filter] => raw
+                                    [mb_origin] => 5386
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [post_count] => 3
     [current_post] => -1
     [in_the_loop] => 
+    [post] => WP_Post Object
+        (
+            [ID] => 6999
+            [post_author] => 1
+            [post_date] => 2019-08-06 13:24:20
+            [post_date_gmt] => 2019-08-06 11:24:20
+            [post_content] => 
+            [post_title] => Ozarow-Brwinow
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => ozarow-brwinow
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2019-08-17 20:26:22
+            [post_modified_gmt] => 2019-08-17 18:26:22
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => https://rowerempomazowszu.pl/?post_type=route&#038;p=6999
+            [menu_order] => 0
+            [post_type] => route
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [trip] => Array
+                (
+                    [0] => WP_Post Object
+                        (
+                            [ID] => 6964
+                            [post_author] => 3
+                            [post_date] => 2019-06-08 23:01:59
+                            [post_date_gmt] => 2019-06-08 21:01:59
+                            [post_content] => Na naszą drugą wycieczkę w tym roku wyruszyliśmy z Ożarowa Mazowieckiego.
+
+Pierwszy przystanek zrobiliśmy sobie w Duchnicach, gdzie zabytkowa aleja wysadzana lipami prowadzi do neorenesansowego pałacyku wybudowanego w drugiej połowie XIX w. Budynek powstał według projektu Stanisława Kierbedzia na podobieństwo włoskiej neorenesansowej willi. Ze względu na to, że był później wielokrotnie przebudowywany, zatracił niestety pierwotne cechy.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4786a.jpg"><img class="aligncenter size-large wp-image-6965" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4786a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+Z Duchnic skierowaliśmy się na południe, do Pruszkowa. Tutaj wjechaliśmy od strony Parku Kultury i Wypoczynku Mazowsze, zwanego przez mieszkańców Gliniankami (wcześniej wydobywano tu glinę). Miejsce to zostało jakiś czas temu odnowione, powstały pomosty, plac zabaw czy miejsca do rozpalenia ogniska.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0255a.jpg"><img class="aligncenter wp-image-6966 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0255a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+Jadąc dalej, dotarliśmy do kolejnego parku - Anielin i położonego po drugiej stronie ulicy Bolesława Prusa, zabytkowego Parku Potulickich.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0263a.jpg"><img class="aligncenter wp-image-6967 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0263a-1024x681.jpg" alt="" width="1024" height="681" /></a>
+
+Na jego terenie, w krajobrazie dominują stawy, a na największym z nich znajduje się wyspa.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0266a.jpg"><img class="aligncenter wp-image-6968 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0266a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4798a.jpg"><img class="aligncenter wp-image-6969 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4798a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0269a.jpg"><img class="aligncenter wp-image-6970 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0269a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+Od strony południowo-zachodniej parku dotarliśmy do Muzeum Starożytnego Hutnictwa. Mieści się ono w pałacyku Potulickich, pochodzącego z początku XIX wieku.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4805a.jpg"><img class="aligncenter wp-image-6971 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4805a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+Muzeum powstało w tym miejscu nie bez przyczyny - jak się okazuje, na początku naszej ery istniał w tym rejonie drugi co do wielkości ośrodek metalurgiczny w Europie! Wytapiano tu żelazo pochodzące z rudy darniowej.
+
+Dodatkową ciekawostką jest znajdujący się w muzeum fortepian pochodzący  1831 r. - jeden z najstarszych sprawnych w kraju! Do gry przy nim zasiadają co jakiś czas muzyczne sławy.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0271a.jpg"><img class="aligncenter wp-image-6972 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0271a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+Naprzeciwko obejrzeć można klasycystyczny pałac Potulickich zbudowany w latach 20. XIX wieku. Obecnie swoją siedzibę ma tu Urząd Stanu Cywilnego, co potwierdza nawet poniższe zdjęcie :)
+
+Pobierająca się właśnie para powinna zaznać szczęścia lub bogactwa na wspólnej drodze - w zależności od wyznawanego przesądu ;) , ponieważ kiedy właśnie przybyli na ceremonię, rozpadał się drobny deszcz. My schroniliśmy się pod drzewami otaczającymi fontannę naprzeciwko budynku.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0274a.jpg"><img class="aligncenter wp-image-6973 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0274a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+W XIX wieku Pruszków był popularną miejscowością letniskową dla mieszkańców stolicy, którzy budowali tu swoje domy. Przejeżdżając przez centrum miasta, dotarliśmy m.in. do zabytkowego Pałacyku "Sokoła" pochodzącego z 1876 roku. Pierwotnie należał on do właściciela wytwórni kafli, Ignacego Więckowskiego. Obecnie używana nazwa pałacu, pochodzi z czasów międzywojennych, kiedy to został wynajęty Towarzystwu Gimnastycznemu "Sokół". Wtedy też pałac stanowił prężny ośrodek kulturalno-sportowy. Wewnątrz mieściło się m.in. kino. Po II wojnie światowej swoją siedzibę miał tu dom kultury, a ostatnio obiekt został gruntownie wyremontowany.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4820a.jpg"><img class="aligncenter wp-image-6974 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4820a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+Na koniec naszej wizyty w Pruszkowie, podjechaliśmy jeszcze na ulicę Ołówkową, pod dawne budynki słynnej fabryki ołówków i kredek (np. znanych przez większość z nas kredek "Bambino").
+
+Zakład "St. Majewski" powstał tu już w 1889 r. i szybko zasłynął z wysokiej jakości produktów (np. podczas Wystawy Światowej w Paryżu 1935 r. ołówek "Polonia 340" otrzymał złoty medal).
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0282a.jpg"><img class="aligncenter wp-image-6975 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0282a-1024x682.jpg" alt="" width="1024" height="682" /></a>
+
+Co interesujące, podczas I wojny światowej, zakład ten został ostrzelany i zniszczony przez wojsko niemieckie dowodzone przez majora Fabera, mimo że nie stanowił w zasadzie żadnego istotnego punktu obrony, położony z boku, poza linią walk. Produkcja musiała zatem zostać zatrzymana na dłuższy czas. Sytuacja ta przestaje jednak być dziwna, kiedy zwrócimy uwagę, że ów major był ściśle związany ze słynną niemiecką fabryką kredek i ołówków "Faber-Castell" ...
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4824a.jpg"><img class="aligncenter wp-image-6976 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4824a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+Z Pruszkowa pojechaliśmy do Brwinowa, gdzie na chwilę zatrzymaliśmy się w parku miejskim.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4830a.jpg"><img class="aligncenter wp-image-6977 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4830a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+W dalszej drodze towarzyszyły nam urocze maki :)
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4831a.jpg"><img class="aligncenter wp-image-6978 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4831a-1024x768.jpg" alt="" width="1024" height="768" /></a>
+
+Skierowaliśmy się z powrotem na Ożarów Mazowiecki.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4833a.jpg"><img class="aligncenter wp-image-6979 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4833a-768x1024.jpg" alt="" width="768" height="1024" /></a>
+
+Jeszcze jeden przystanek zrobiliśmy sobie w Ołtarzewie, w tamtejszym parku miejskim.
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0287a.jpg"><img class="aligncenter wp-image-6980 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/DSCF0287a-1024x683.jpg" alt="" width="1024" height="683" /></a>
+
+Rosnące w tym miejscu drzewa pamiętają jeszcze czasy, kiedy to istniał tutaj niewielki pałacyk należący (wraz z przyległymi stawami) do majątku Stanisława Kierbedzia, słynnego budowniczego mostów (np. pierwszego żelaznego mostu w Warszawie).
+
+<a href="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4837a.jpg"><img class="aligncenter wp-image-6981 size-large" src="https://rowerempomazowszu.pl/team/wp-content/uploads/2019/07/IMG_4837a-766x1024.jpg" alt="" width="766" height="1024" /></a>
+
+Z Ołtarzewa szybko wróciliśmy do Ożarowa, gdzie czym prędzej udaliśmy się na zasłużoną pizzę.
+
+&nbsp;
+                            [post_title] => Piękne parki, starożytne żelazo i niezwykła historia ołówków...
+                            [post_excerpt] => 
+                            [post_status] => publish
+                            [comment_status] => open
+                            [ping_status] => open
+                            [post_password] => 
+                            [post_name] => piekne-parki-starozytne-zelazo-i-niezwykla-historia-olowkow
+                            [to_ping] => 
+                            [pinged] => 
+                            [post_modified] => 2019-08-18 13:35:34
+                            [post_modified_gmt] => 2019-08-18 11:35:34
+                            [post_content_filtered] => 
+                            [post_parent] => 0
+                            [guid] => https://rowerempomazowszu.pl/?post_type=trip&#038;p=6964
+                            [menu_order] => 0
+                            [post_type] => trip
+                            [post_mime_type] => 
+                            [comment_count] => 0
+                            [filter] => raw
+                            [mb_origin] => 6999
+                        )
+
+                )
+
+        )
+
     [comment_count] => 0
     [current_comment] => -1
-    [found_posts] => 0
-    [max_num_pages] => 0
+    [found_posts] => 43
+    [max_num_pages] => 15
     [max_num_comment_pages] => 0
     [is_single] => 
     [is_preview] => 
@@ -578,12 +1544,13 @@
     [is_author] => 
     [is_category] => 
     [is_tag] => 
-    [is_tax] => 
+    [is_tax] => 1
     [is_search] => 
     [is_feed] => 
     [is_comment_feed] => 
     [is_trackback] => 
     [is_home] => 
+    [is_privacy_policy] => 
     [is_404] => 
     [is_embed] => 
     [is_paged] => 
@@ -592,8 +1559,8 @@
     [is_singular] => 
     [is_robots] => 
     [is_posts_page] => 
-    [is_post_type_archive] => 
-    [query_vars_hash:WP_Query:private] => eeca56fbf63ed2feab7666da0e02c934
+    [is_post_type_archive] => 1
+    [query_vars_hash:WP_Query:private] => fac74dcf1c2fa2c376602d6004cf57ed
     [query_vars_changed:WP_Query:private] => 
     [thumbnails_cached] => 
     [stopwords:WP_Query:private] => 
@@ -609,1223 +1576,15 @@
             [1] => parse_tax_query
         )
 
-    [relationship_query] => MBR_Query Object
-        (
-            [args:protected] => Array
-                (
-                    [id] => trips_to_routs
-                    [id_field] => ID
-                    [direction] => to
-                    [items] => Array
-                        (
-                            [0] => 5376
-                        )
-
-                )
-
-        )
-
 )
 
-2019-03-28 19:14:10	------$post1-----
-2019-03-28 19:14:10	WP_Query Object
+2019-08-18 11:36:14	WP_Term Object
 (
-    [query] => Array
-        (
-            [relationship] => Array
-                (
-                    [id] => trips_to_routs
-                    [to] => 5374
-                )
-
-            [nopaging] => 1
-        )
-
-    [query_vars] => Array
-        (
-            [relationship] => Array
-                (
-                    [id] => trips_to_routs
-                    [id_field] => ID
-                    [direction] => to
-                    [items] => Array
-                        (
-                            [0] => 5374
-                        )
-
-                )
-
-            [nopaging] => 1
-            [error] => 
-            [m] => 
-            [p] => 0
-            [post_parent] => 
-            [subpost] => 
-            [subpost_id] => 
-            [attachment] => 
-            [attachment_id] => 0
-            [name] => 
-            [static] => 
-            [pagename] => 
-            [page_id] => 0
-            [second] => 
-            [minute] => 
-            [hour] => 
-            [day] => 0
-            [monthnum] => 0
-            [year] => 0
-            [w] => 0
-            [category_name] => 
-            [tag] => 
-            [cat] => 
-            [tag_id] => 
-            [author] => 
-            [author_name] => 
-            [feed] => 
-            [tb] => 
-            [paged] => 0
-            [meta_key] => 
-            [meta_value] => 
-            [preview] => 
-            [s] => 
-            [sentence] => 
-            [title] => 
-            [fields] => 
-            [menu_order] => 
-            [embed] => 
-            [category__in] => Array
-                (
-                )
-
-            [category__not_in] => Array
-                (
-                )
-
-            [category__and] => Array
-                (
-                )
-
-            [post__in] => Array
-                (
-                )
-
-            [post__not_in] => Array
-                (
-                )
-
-            [post_name__in] => Array
-                (
-                )
-
-            [tag__in] => Array
-                (
-                )
-
-            [tag__not_in] => Array
-                (
-                )
-
-            [tag__and] => Array
-                (
-                )
-
-            [tag_slug__in] => Array
-                (
-                )
-
-            [tag_slug__and] => Array
-                (
-                )
-
-            [post_parent__in] => Array
-                (
-                )
-
-            [post_parent__not_in] => Array
-                (
-                )
-
-            [author__in] => Array
-                (
-                )
-
-            [author__not_in] => Array
-                (
-                )
-
-            [post_type] => any
-            [suppress_filters] => 
-            [ignore_sticky_posts] => 1
-        )
-
-    [tax_query] => WP_Tax_Query Object
-        (
-            [queries] => Array
-                (
-                )
-
-            [relation] => AND
-            [table_aliases:protected] => Array
-                (
-                )
-
-            [queried_terms] => Array
-                (
-                )
-
-            [primary_table] => 
-            [primary_id_column] => 
-        )
-
-    [meta_query] => 
-    [date_query] => 
-    [post_count] => 0
-    [current_post] => -1
-    [in_the_loop] => 
-    [comment_count] => 0
-    [current_comment] => -1
-    [found_posts] => 0
-    [max_num_pages] => 0
-    [max_num_comment_pages] => 0
-    [is_single] => 
-    [is_preview] => 
-    [is_page] => 
-    [is_archive] => 1
-    [is_date] => 
-    [is_year] => 
-    [is_month] => 
-    [is_day] => 
-    [is_time] => 
-    [is_author] => 
-    [is_category] => 
-    [is_tag] => 
-    [is_tax] => 
-    [is_search] => 
-    [is_feed] => 
-    [is_comment_feed] => 
-    [is_trackback] => 
-    [is_home] => 
-    [is_404] => 
-    [is_embed] => 
-    [is_paged] => 
-    [is_admin] => 
-    [is_attachment] => 
-    [is_singular] => 
-    [is_robots] => 
-    [is_posts_page] => 
-    [is_post_type_archive] => 
-    [query_vars_hash:WP_Query:private] => e7d6432bf03f6534efd2393955ef3ce4
-    [query_vars_changed:WP_Query:private] => 
-    [thumbnails_cached] => 
-    [stopwords:WP_Query:private] => 
-    [compat_fields:WP_Query:private] => Array
-        (
-            [0] => query_vars_hash
-            [1] => query_vars_changed
-        )
-
-    [compat_methods:WP_Query:private] => Array
-        (
-            [0] => init_query_flags
-            [1] => parse_tax_query
-        )
-
-    [relationship_query] => MBR_Query Object
-        (
-            [args:protected] => Array
-                (
-                    [id] => trips_to_routs
-                    [id_field] => ID
-                    [direction] => to
-                    [items] => Array
-                        (
-                            [0] => 5374
-                        )
-
-                )
-
-        )
-
-)
-
-2019-03-28 19:14:10	------$post1-----
-2019-03-28 19:14:10	WP_Query Object
-(
-    [query] => Array
-        (
-            [relationship] => Array
-                (
-                    [id] => trips_to_routs
-                    [to] => 5372
-                )
-
-            [nopaging] => 1
-        )
-
-    [query_vars] => Array
-        (
-            [relationship] => Array
-                (
-                    [id] => trips_to_routs
-                    [id_field] => ID
-                    [direction] => to
-                    [items] => Array
-                        (
-                            [0] => 5372
-                        )
-
-                )
-
-            [nopaging] => 1
-            [error] => 
-            [m] => 
-            [p] => 0
-            [post_parent] => 
-            [subpost] => 
-            [subpost_id] => 
-            [attachment] => 
-            [attachment_id] => 0
-            [name] => 
-            [static] => 
-            [pagename] => 
-            [page_id] => 0
-            [second] => 
-            [minute] => 
-            [hour] => 
-            [day] => 0
-            [monthnum] => 0
-            [year] => 0
-            [w] => 0
-            [category_name] => 
-            [tag] => 
-            [cat] => 
-            [tag_id] => 
-            [author] => 
-            [author_name] => 
-            [feed] => 
-            [tb] => 
-            [paged] => 0
-            [meta_key] => 
-            [meta_value] => 
-            [preview] => 
-            [s] => 
-            [sentence] => 
-            [title] => 
-            [fields] => 
-            [menu_order] => 
-            [embed] => 
-            [category__in] => Array
-                (
-                )
-
-            [category__not_in] => Array
-                (
-                )
-
-            [category__and] => Array
-                (
-                )
-
-            [post__in] => Array
-                (
-                )
-
-            [post__not_in] => Array
-                (
-                )
-
-            [post_name__in] => Array
-                (
-                )
-
-            [tag__in] => Array
-                (
-                )
-
-            [tag__not_in] => Array
-                (
-                )
-
-            [tag__and] => Array
-                (
-                )
-
-            [tag_slug__in] => Array
-                (
-                )
-
-            [tag_slug__and] => Array
-                (
-                )
-
-            [post_parent__in] => Array
-                (
-                )
-
-            [post_parent__not_in] => Array
-                (
-                )
-
-            [author__in] => Array
-                (
-                )
-
-            [author__not_in] => Array
-                (
-                )
-
-            [post_type] => any
-            [suppress_filters] => 
-            [ignore_sticky_posts] => 1
-        )
-
-    [tax_query] => WP_Tax_Query Object
-        (
-            [queries] => Array
-                (
-                )
-
-            [relation] => AND
-            [table_aliases:protected] => Array
-                (
-                )
-
-            [queried_terms] => Array
-                (
-                )
-
-            [primary_table] => 
-            [primary_id_column] => 
-        )
-
-    [meta_query] => 
-    [date_query] => 
-    [post_count] => 0
-    [current_post] => -1
-    [in_the_loop] => 
-    [comment_count] => 0
-    [current_comment] => -1
-    [found_posts] => 0
-    [max_num_pages] => 0
-    [max_num_comment_pages] => 0
-    [is_single] => 
-    [is_preview] => 
-    [is_page] => 
-    [is_archive] => 1
-    [is_date] => 
-    [is_year] => 
-    [is_month] => 
-    [is_day] => 
-    [is_time] => 
-    [is_author] => 
-    [is_category] => 
-    [is_tag] => 
-    [is_tax] => 
-    [is_search] => 
-    [is_feed] => 
-    [is_comment_feed] => 
-    [is_trackback] => 
-    [is_home] => 
-    [is_404] => 
-    [is_embed] => 
-    [is_paged] => 
-    [is_admin] => 
-    [is_attachment] => 
-    [is_singular] => 
-    [is_robots] => 
-    [is_posts_page] => 
-    [is_post_type_archive] => 
-    [query_vars_hash:WP_Query:private] => bc8fa280ea8cff07a970f94e26e8c66c
-    [query_vars_changed:WP_Query:private] => 
-    [thumbnails_cached] => 
-    [stopwords:WP_Query:private] => 
-    [compat_fields:WP_Query:private] => Array
-        (
-            [0] => query_vars_hash
-            [1] => query_vars_changed
-        )
-
-    [compat_methods:WP_Query:private] => Array
-        (
-            [0] => init_query_flags
-            [1] => parse_tax_query
-        )
-
-    [relationship_query] => MBR_Query Object
-        (
-            [args:protected] => Array
-                (
-                    [id] => trips_to_routs
-                    [id_field] => ID
-                    [direction] => to
-                    [items] => Array
-                        (
-                            [0] => 5372
-                        )
-
-                )
-
-        )
-
-)
-
-2019-03-28 19:14:10	------$post1-----
-2019-03-28 19:14:10	WP_Query Object
-(
-    [query] => Array
-        (
-            [relationship] => Array
-                (
-                    [id] => trips_to_routs
-                    [to] => 5378
-                )
-
-            [nopaging] => 1
-        )
-
-    [query_vars] => Array
-        (
-            [relationship] => Array
-                (
-                    [id] => trips_to_routs
-                    [id_field] => ID
-                    [direction] => to
-                    [items] => Array
-                        (
-                            [0] => 5378
-                        )
-
-                )
-
-            [nopaging] => 1
-            [error] => 
-            [m] => 
-            [p] => 0
-            [post_parent] => 
-            [subpost] => 
-            [subpost_id] => 
-            [attachment] => 
-            [attachment_id] => 0
-            [name] => 
-            [static] => 
-            [pagename] => 
-            [page_id] => 0
-            [second] => 
-            [minute] => 
-            [hour] => 
-            [day] => 0
-            [monthnum] => 0
-            [year] => 0
-            [w] => 0
-            [category_name] => 
-            [tag] => 
-            [cat] => 
-            [tag_id] => 
-            [author] => 
-            [author_name] => 
-            [feed] => 
-            [tb] => 
-            [paged] => 0
-            [meta_key] => 
-            [meta_value] => 
-            [preview] => 
-            [s] => 
-            [sentence] => 
-            [title] => 
-            [fields] => 
-            [menu_order] => 
-            [embed] => 
-            [category__in] => Array
-                (
-                )
-
-            [category__not_in] => Array
-                (
-                )
-
-            [category__and] => Array
-                (
-                )
-
-            [post__in] => Array
-                (
-                )
-
-            [post__not_in] => Array
-                (
-                )
-
-            [post_name__in] => Array
-                (
-                )
-
-            [tag__in] => Array
-                (
-                )
-
-            [tag__not_in] => Array
-                (
-                )
-
-            [tag__and] => Array
-                (
-                )
-
-            [tag_slug__in] => Array
-                (
-                )
-
-            [tag_slug__and] => Array
-                (
-                )
-
-            [post_parent__in] => Array
-                (
-                )
-
-            [post_parent__not_in] => Array
-                (
-                )
-
-            [author__in] => Array
-                (
-                )
-
-            [author__not_in] => Array
-                (
-                )
-
-            [post_type] => any
-            [suppress_filters] => 
-            [ignore_sticky_posts] => 1
-        )
-
-    [tax_query] => WP_Tax_Query Object
-        (
-            [queries] => Array
-                (
-                )
-
-            [relation] => AND
-            [table_aliases:protected] => Array
-                (
-                )
-
-            [queried_terms] => Array
-                (
-                )
-
-            [primary_table] => 
-            [primary_id_column] => 
-        )
-
-    [meta_query] => 
-    [date_query] => 
-    [post_count] => 0
-    [current_post] => -1
-    [in_the_loop] => 
-    [comment_count] => 0
-    [current_comment] => -1
-    [found_posts] => 0
-    [max_num_pages] => 0
-    [max_num_comment_pages] => 0
-    [is_single] => 
-    [is_preview] => 
-    [is_page] => 
-    [is_archive] => 1
-    [is_date] => 
-    [is_year] => 
-    [is_month] => 
-    [is_day] => 
-    [is_time] => 
-    [is_author] => 
-    [is_category] => 
-    [is_tag] => 
-    [is_tax] => 
-    [is_search] => 
-    [is_feed] => 
-    [is_comment_feed] => 
-    [is_trackback] => 
-    [is_home] => 
-    [is_404] => 
-    [is_embed] => 
-    [is_paged] => 
-    [is_admin] => 
-    [is_attachment] => 
-    [is_singular] => 
-    [is_robots] => 
-    [is_posts_page] => 
-    [is_post_type_archive] => 
-    [query_vars_hash:WP_Query:private] => c7890d4fbd395c0db51220839c80b14d
-    [query_vars_changed:WP_Query:private] => 
-    [thumbnails_cached] => 
-    [stopwords:WP_Query:private] => 
-    [compat_fields:WP_Query:private] => Array
-        (
-            [0] => query_vars_hash
-            [1] => query_vars_changed
-        )
-
-    [compat_methods:WP_Query:private] => Array
-        (
-            [0] => init_query_flags
-            [1] => parse_tax_query
-        )
-
-    [relationship_query] => MBR_Query Object
-        (
-            [args:protected] => Array
-                (
-                    [id] => trips_to_routs
-                    [id_field] => ID
-                    [direction] => to
-                    [items] => Array
-                        (
-                            [0] => 5378
-                        )
-
-                )
-
-        )
-
-)
-
-2019-03-28 19:14:10	------$post2-----
-2019-03-28 19:14:10	------$post1-----
-2019-03-28 19:14:10	WP_Query Object
-(
-    [query] => Array
-        (
-            [relationship] => Array
-                (
-                    [id] => trips_to_routs
-                    [to] => 5386
-                )
-
-            [nopaging] => 1
-        )
-
-    [query_vars] => Array
-        (
-            [relationship] => Array
-                (
-                    [id] => trips_to_routs
-                    [id_field] => ID
-                    [direction] => to
-                    [items] => Array
-                        (
-                            [0] => 5386
-                        )
-
-                )
-
-            [nopaging] => 1
-            [error] => 
-            [m] => 
-            [p] => 0
-            [post_parent] => 
-            [subpost] => 
-            [subpost_id] => 
-            [attachment] => 
-            [attachment_id] => 0
-            [name] => 
-            [static] => 
-            [pagename] => 
-            [page_id] => 0
-            [second] => 
-            [minute] => 
-            [hour] => 
-            [day] => 0
-            [monthnum] => 0
-            [year] => 0
-            [w] => 0
-            [category_name] => 
-            [tag] => 
-            [cat] => 
-            [tag_id] => 
-            [author] => 
-            [author_name] => 
-            [feed] => 
-            [tb] => 
-            [paged] => 0
-            [meta_key] => 
-            [meta_value] => 
-            [preview] => 
-            [s] => 
-            [sentence] => 
-            [title] => 
-            [fields] => 
-            [menu_order] => 
-            [embed] => 
-            [category__in] => Array
-                (
-                )
-
-            [category__not_in] => Array
-                (
-                )
-
-            [category__and] => Array
-                (
-                )
-
-            [post__in] => Array
-                (
-                )
-
-            [post__not_in] => Array
-                (
-                )
-
-            [post_name__in] => Array
-                (
-                )
-
-            [tag__in] => Array
-                (
-                )
-
-            [tag__not_in] => Array
-                (
-                )
-
-            [tag__and] => Array
-                (
-                )
-
-            [tag_slug__in] => Array
-                (
-                )
-
-            [tag_slug__and] => Array
-                (
-                )
-
-            [post_parent__in] => Array
-                (
-                )
-
-            [post_parent__not_in] => Array
-                (
-                )
-
-            [author__in] => Array
-                (
-                )
-
-            [author__not_in] => Array
-                (
-                )
-
-            [post_type] => any
-            [suppress_filters] => 
-            [ignore_sticky_posts] => 1
-        )
-
-    [tax_query] => WP_Tax_Query Object
-        (
-            [queries] => Array
-                (
-                )
-
-            [relation] => AND
-            [table_aliases:protected] => Array
-                (
-                )
-
-            [queried_terms] => Array
-                (
-                )
-
-            [primary_table] => 
-            [primary_id_column] => 
-        )
-
-    [meta_query] => 
-    [date_query] => 
-    [post_count] => 0
-    [current_post] => -1
-    [in_the_loop] => 
-    [comment_count] => 0
-    [current_comment] => -1
-    [found_posts] => 0
-    [max_num_pages] => 0
-    [max_num_comment_pages] => 0
-    [is_single] => 
-    [is_preview] => 
-    [is_page] => 
-    [is_archive] => 1
-    [is_date] => 
-    [is_year] => 
-    [is_month] => 
-    [is_day] => 
-    [is_time] => 
-    [is_author] => 
-    [is_category] => 
-    [is_tag] => 
-    [is_tax] => 
-    [is_search] => 
-    [is_feed] => 
-    [is_comment_feed] => 
-    [is_trackback] => 
-    [is_home] => 
-    [is_404] => 
-    [is_embed] => 
-    [is_paged] => 
-    [is_admin] => 
-    [is_attachment] => 
-    [is_singular] => 
-    [is_robots] => 
-    [is_posts_page] => 
-    [is_post_type_archive] => 
-    [query_vars_hash:WP_Query:private] => 456ddef13c136f379d0abf94bc991a33
-    [query_vars_changed:WP_Query:private] => 
-    [thumbnails_cached] => 
-    [stopwords:WP_Query:private] => 
-    [compat_fields:WP_Query:private] => Array
-        (
-            [0] => query_vars_hash
-            [1] => query_vars_changed
-        )
-
-    [compat_methods:WP_Query:private] => Array
-        (
-            [0] => init_query_flags
-            [1] => parse_tax_query
-        )
-
-    [relationship_query] => MBR_Query Object
-        (
-            [args:protected] => Array
-                (
-                    [id] => trips_to_routs
-                    [id_field] => ID
-                    [direction] => to
-                    [items] => Array
-                        (
-                            [0] => 5386
-                        )
-
-                )
-
-        )
-
-)
-
-2019-03-28 19:14:10	------$post2-----
-2019-03-28 19:18:46	WP_Term Object
-(
-    [term_id] => 520
-    [name] => Mazowsze
-    [slug] => mazowsze
+    [term_id] => 556
+    [name] => Truskaw
+    [slug] => truskaw
     [term_group] => 0
-    [term_taxonomy_id] => 520
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 0
-    [count] => 105
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 19:18:46	------$post1-----
-2019-03-28 19:18:46	------$post2-----
-2019-03-28 19:18:46	------$post1-----
-2019-03-28 19:18:46	------$post2-----
-2019-03-28 19:18:46	------$post1-----
-2019-03-28 19:18:46	------$post2-----
-2019-03-28 19:18:46	------$post1-----
-2019-03-28 19:18:46	------$post2-----
-2019-03-28 19:18:46	------$post1-----
-2019-03-28 19:18:46	------$post2-----
-2019-03-28 19:19:42	WP_Term Object
-(
-    [term_id] => 520
-    [name] => Mazowsze
-    [slug] => mazowsze
-    [term_group] => 0
-    [term_taxonomy_id] => 520
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 0
-    [count] => 105
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 19:19:42	------$post1-----
-2019-03-28 19:19:42	------$post2-----
-2019-03-28 19:19:42	------$post1-----
-2019-03-28 19:19:42	------$post2-----
-2019-03-28 19:19:42	------$post1-----
-2019-03-28 19:19:42	------$post2-----
-2019-03-28 19:19:42	------$post1-----
-2019-03-28 19:19:42	------$post2-----
-2019-03-28 19:19:42	------$post1-----
-2019-03-28 19:19:42	------$post2-----
-2019-03-28 19:20:03	WP_Term Object
-(
-    [term_id] => 521
-    [name] => Warszawa
-    [slug] => warszawa
-    [term_group] => 0
-    [term_taxonomy_id] => 521
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 520
-    [count] => 61
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 19:20:03	------$post1-----
-2019-03-28 19:20:03	------$post2-----
-2019-03-28 19:20:03	------$post1-----
-2019-03-28 19:20:03	------$post2-----
-2019-03-28 19:20:03	------$post1-----
-2019-03-28 19:20:03	------$post2-----
-2019-03-28 19:20:03	------$post1-----
-2019-03-28 19:20:03	------$post2-----
-2019-03-28 19:20:03	------$post1-----
-2019-03-28 19:20:03	------$post2-----
-2019-03-28 22:05:54	WP_Term Object
-(
-    [term_id] => 521
-    [name] => Warszawa
-    [slug] => warszawa
-    [term_group] => 0
-    [term_taxonomy_id] => 521
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 520
-    [count] => 61
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 22:05:54	------$post1-----
-2019-03-28 22:05:54	------$post2-----
-2019-03-28 22:05:54	------$post1-----
-2019-03-28 22:05:54	------$post2-----
-2019-03-28 22:05:54	------$post1-----
-2019-03-28 22:05:54	------$post2-----
-2019-03-28 22:05:54	------$post1-----
-2019-03-28 22:05:54	------$post2-----
-2019-03-28 22:05:54	------$post1-----
-2019-03-28 22:05:54	------$post2-----
-2019-03-28 22:06:08	WP_Term Object
-(
-    [term_id] => 520
-    [name] => Mazowsze
-    [slug] => mazowsze
-    [term_group] => 0
-    [term_taxonomy_id] => 520
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 0
-    [count] => 105
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 22:06:08	------$post1-----
-2019-03-28 22:06:08	------$post2-----
-2019-03-28 22:06:08	------$post1-----
-2019-03-28 22:06:08	------$post2-----
-2019-03-28 22:06:08	------$post1-----
-2019-03-28 22:06:08	------$post2-----
-2019-03-28 22:06:08	------$post1-----
-2019-03-28 22:06:08	------$post2-----
-2019-03-28 22:06:08	------$post1-----
-2019-03-28 22:06:08	------$post2-----
-2019-03-28 22:11:43	WP_Term Object
-(
-    [term_id] => 521
-    [name] => Warszawa
-    [slug] => warszawa
-    [term_group] => 0
-    [term_taxonomy_id] => 521
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 520
-    [count] => 61
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 22:11:43	------$post1-----
-2019-03-28 22:11:43	------$post2-----
-2019-03-28 22:11:43	------$post1-----
-2019-03-28 22:11:43	------$post2-----
-2019-03-28 22:11:43	------$post1-----
-2019-03-28 22:11:43	------$post2-----
-2019-03-28 22:11:43	------$post1-----
-2019-03-28 22:11:43	------$post2-----
-2019-03-28 22:11:43	------$post1-----
-2019-03-28 22:11:43	------$post2-----
-2019-03-28 22:12:00	WP_Term Object
-(
-    [term_id] => 520
-    [name] => Mazowsze
-    [slug] => mazowsze
-    [term_group] => 0
-    [term_taxonomy_id] => 520
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 0
-    [count] => 105
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 22:12:00	------$post1-----
-2019-03-28 22:12:00	------$post2-----
-2019-03-28 22:12:00	------$post1-----
-2019-03-28 22:12:00	------$post2-----
-2019-03-28 22:12:00	------$post1-----
-2019-03-28 22:12:00	------$post2-----
-2019-03-28 22:12:00	------$post1-----
-2019-03-28 22:12:00	------$post2-----
-2019-03-28 22:12:00	------$post1-----
-2019-03-28 22:12:00	------$post2-----
-2019-03-28 22:12:20	WP_Term Object
-(
-    [term_id] => 520
-    [name] => Mazowsze
-    [slug] => mazowsze
-    [term_group] => 0
-    [term_taxonomy_id] => 520
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 0
-    [count] => 105
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 22:12:20	------$post1-----
-2019-03-28 22:12:20	------$post2-----
-2019-03-28 22:12:20	------$post1-----
-2019-03-28 22:12:20	------$post2-----
-2019-03-28 22:12:20	------$post1-----
-2019-03-28 22:12:21	------$post2-----
-2019-03-28 22:12:21	------$post1-----
-2019-03-28 22:12:21	------$post2-----
-2019-03-28 22:12:21	------$post1-----
-2019-03-28 22:12:21	------$post2-----
-2019-03-28 22:12:30	WP_Term Object
-(
-    [term_id] => 520
-    [name] => Mazowsze
-    [slug] => mazowsze
-    [term_group] => 0
-    [term_taxonomy_id] => 520
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 0
-    [count] => 105
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-28 22:12:30	------$post1-----
-2019-03-28 22:12:30	------$post2-----
-2019-03-28 22:12:30	------$post1-----
-2019-03-28 22:12:30	------$post2-----
-2019-03-28 22:12:30	------$post1-----
-2019-03-28 22:12:30	------$post2-----
-2019-03-28 22:12:30	------$post1-----
-2019-03-28 22:12:30	------$post2-----
-2019-03-28 22:12:30	------$post1-----
-2019-03-28 22:12:30	------$post2-----
-2019-03-29 18:04:32	WP_Term Object
-(
-    [term_id] => 536
-    [name] => Piaseczno
-    [slug] => piaseczno
-    [term_group] => 0
-    [term_taxonomy_id] => 536
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 520
-    [count] => 4
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-29 18:04:32	------$post1-----
-2019-03-29 18:04:32	------$post2-----
-2019-03-29 18:04:32	------$post1-----
-2019-03-29 18:04:32	------$post2-----
-2019-03-29 18:04:32	------$post1-----
-2019-03-29 18:04:32	------$post2-----
-2019-03-29 18:04:32	------$post1-----
-2019-03-29 18:04:32	------$post2-----
-2019-03-29 18:06:19	WP_Term Object
-(
-    [term_id] => 536
-    [name] => Piaseczno
-    [slug] => piaseczno
-    [term_group] => 0
-    [term_taxonomy_id] => 536
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 520
-    [count] => 4
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-29 18:06:19	------$post1-----
-2019-03-29 18:06:19	------$post2-----
-2019-03-29 18:06:19	------$post1-----
-2019-03-29 18:06:19	------$post2-----
-2019-03-29 18:06:19	------$post1-----
-2019-03-29 18:06:19	------$post2-----
-2019-03-29 18:06:19	------$post1-----
-2019-03-29 18:06:19	------$post2-----
-2019-03-29 18:08:22	WP_Term Object
-(
-    [term_id] => 536
-    [name] => Piaseczno
-    [slug] => piaseczno
-    [term_group] => 0
-    [term_taxonomy_id] => 536
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 520
-    [count] => 4
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-29 18:08:22	------$post1-----
-2019-03-29 18:08:22	------$post2-----
-2019-03-29 18:08:22	------$post1-----
-2019-03-29 18:08:22	------$post2-----
-2019-03-29 18:08:22	------$post1-----
-2019-03-29 18:08:22	------$post2-----
-2019-03-29 18:08:22	------$post1-----
-2019-03-29 18:08:22	------$post2-----
-2019-03-31 07:00:52	WP_Term Object
-(
-    [term_id] => 540
-    [name] => Otwock
-    [slug] => otwock
-    [term_group] => 0
-    [term_taxonomy_id] => 540
+    [term_taxonomy_id] => 556
     [taxonomy] => locality
     [description] => 
     [parent] => 520
@@ -1835,29 +1594,9 @@
     [avhec_term_order] => 0
 )
 
-2019-03-31 07:00:52	------$post1-----
-2019-03-31 07:00:52	------$post2-----
-2019-03-31 07:00:52	------$post1-----
-2019-03-31 07:00:52	------$post2-----
-2019-03-31 07:00:52	------$post1-----
-2019-03-31 07:00:52	------$post2-----
-2019-03-31 16:56:38	WP_Term Object
-(
-    [term_id] => 594
-    [name] => Tłuszcz
-    [slug] => tluszcz
-    [term_group] => 0
-    [term_taxonomy_id] => 594
-    [taxonomy] => locality
-    [description] => 
-    [parent] => 520
-    [count] => 2
-    [filter] => raw
-    [term_order] => 0
-    [avhec_term_order] => 0
-)
-
-2019-03-31 16:56:38	------$post1-----
-2019-03-31 16:56:38	------$post2-----
-2019-03-31 16:56:38	------$post1-----
-2019-03-31 16:56:38	------$post2-----
+2019-08-18 11:36:14	------$post1-----
+2019-08-18 11:36:14	------$post2-----
+2019-08-18 11:36:14	------$post1-----
+2019-08-18 11:36:14	------$post2-----
+2019-08-18 11:36:14	------$post1-----
+2019-08-18 11:36:14	------$post2-----
