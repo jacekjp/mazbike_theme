@@ -151,10 +151,149 @@ Template Name: Sezon
                  ?>
 
             var routes = <?php echo $js_routes ?>;
+            console.log(routes);
 
             for (var i = 0; i < routes.length; i++) {
-                readGpxFile(routes[i]);
+//                readGpxFile(routes[i]);
+                drawTrackNew(routes[i]);
             }
+        }
+
+        function drawTrackNew(route){
+
+            if(route.meta.route_path == null) {
+                return;
+            }
+
+            var geoData = JSON.parse(route.meta.route_path[0]);
+            var points = [];
+            var tmp_marker = [];
+
+            var tr_id = route['route_id'];
+            var tr_title = route['route_title'];
+            var tr_is_planned = route['route_is_planned'];
+            var is_mazowsze = route['is_mazowsze'];
+
+            if(tr_is_planned == 1) return;
+
+            var tr_year_diff = route['route_year_diff'];
+
+            var lats = [];
+            var lons = [];
+            for (var i = 0; i < geoData.geometry.coordinates[0].length; i++) {
+                var coords = geoData.geometry.coordinates[0][i];
+
+                var lat = coords[0];
+                var lon = coords[1];
+                var p = new google.maps.LatLng(lat, lon);
+                points.push(p);
+                lats.push(lat);
+                lons.push(lon);
+                tmp_marker.push([lat, lon]);
+            }
+
+            var maxPoint =  new google.maps.LatLng(Math.max.apply(Math, lats), Math.max.apply(Math, lons));
+            var minPoint =  new google.maps.LatLng(Math.min.apply(Math, lats), Math.min.apply(Math, lons));
+            if(is_mazowsze){
+                boundsArray.push([tr_id+"_max", maxPoint],[tr_id+"_min", minPoint]);
+            }
+
+
+            var strokeColor = "#4C1E6D";
+//    tr_year_diff = (tr_year_diff < 8 )? tr_year_diff : 7;
+//    var strokeOpacity = 1 - 0.1 * tr_year_diff;
+//    strokeOpacity = strokeOpacity.toFixed(1);
+            var strokeOpacity = 0.7;
+            var strokeWeight = 4;
+
+            if(tr_is_planned == 1) {
+                strokeColor = "red";
+                strokeOpacity = 1;
+                strokeWeight = 2;
+            }
+
+            if(tr_title == 'mazowsze') {
+                strokeColor = "black";
+                strokeOpacity = 1;
+                strokeWeight = 1;
+            }
+
+            var poly = new google.maps.Polyline({
+                path: points,
+                strokeColor: strokeColor,
+                strokeOpacity: strokeOpacity,
+                strokeWeight: strokeWeight
+            });
+
+            poly.setMap(map);
+            polyArray[tr_id] = poly;
+
+            if(tr_title !== 'mazowsze'){
+                google.maps.event.addListener(poly, 'mouseover', function(event) {
+//                jQuery('#current-info').html(tr_title);
+                    poly.setOptions({
+//                    strokeColor: "red",
+                        strokeOpacity: 1,
+                        strokeWeight: 5
+                    });
+
+                });
+                google.maps.event.addListener(poly, 'mouseout', function(event) {
+//                jQuery('#current-info').html("");
+
+                    poly.setOptions({
+//                    strokeColor: "green",
+                        strokeOpacity: strokeOpacity,
+                        strokeWeight: strokeWeight
+                    });
+
+                    if(typeof currentPoly !== "undefined")
+                    {
+                        currentPoly.setOptions({
+                            strokeColor: "#792",
+                            strokeWeight: 5
+                        });
+                    }
+
+
+
+                });
+
+                var infowindowstring = "<div style='color:#792;padding:5px;'><a href='" + route.trip_link + "'>" + route.trip_title + " | " + route.meta.dystans + "km</a></div>";
+
+                google.maps.event.addListener(poly, 'click', function(event) {
+
+                    if(typeof currentPoly !== "undefined")
+                    {
+                        currentPoly.setOptions({
+                            strokeColor: "#4C1E6D",
+                            strokeOpacity: 0.7,
+                            strokeWeight: 4
+                        });
+                    }
+                    currentPoly = poly;
+
+                    infowindow.setContent(infowindowstring);
+                    infowindow.setPosition(event.latLng);
+                    infowindow.open(map );
+                    poly.setOptions({
+                        strokeColor: "#792",
+                        strokeOpacity: 1,
+                        strokeWeight: 5
+                    });
+
+
+//                polyArray[tr_id].setMap(null);
+//                polyArray[tr_id] = 0;
+//                reduceBounds([tr_id+"_max",tr_id+"_min"]);
+//                boundsAdjust(boundsArray);
+                });
+            }
+
+
+
+
+            boundsAdjust(boundsArray);
         }
 
         function drawTrack(gpxFileData, route){
