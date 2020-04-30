@@ -112,13 +112,14 @@ if ( have_posts() ) :
 //            ctaLayer.setMap(map);
 
 
-            var gpxFileData;
-            readGpxFile("<?php echo  get_post_meta($routeId, 'gpx', true); ?>").success(function(fData){
+<!--            var gpxFileData;-->
+<!--            readGpxFile("--><?php //echo  get_post_meta($routeId, 'gpx', true); ?><!--").success(function(fData){-->
+<!---->
+<!--                gpxFileData = fData;-->
+<!--                drawTrack(gpxFileData, --><?php //echo $routeId ?><!--);-->
+<!--            });-->
 
-                gpxFileData = fData;
-                drowTrack(gpxFileData, <?php echo $routeId ?>);
-            });
-
+            drawTrackNew(<?php echo get_post_meta($routeId, 'route_path', true); ?> , <?php echo $routeId ?>);
 
 
 //            var myloc = new google.maps.Marker({
@@ -143,7 +144,7 @@ if ( have_posts() ) :
 
         }
 
-        function drowTrack(gpxFileData, tr_id){
+        function drawTrack(gpxFileData, tr_id){
 
 //            console.log('gpxFileData');
 //            console.log(gpxFileData);
@@ -204,6 +205,66 @@ if ( have_posts() ) :
 
             boundsAdjust(boundsArray);
         }
+
+
+        function drawTrackNew(geoData, tr_id){
+
+            var points = [];
+            var tmp_marker = [];
+
+            var lats = [];
+            var lons = [];
+            for (var i = 0; i < geoData.geometry.coordinates[0].length; i++) {
+                var coords = geoData.geometry.coordinates[0][i];
+
+                var lat = coords[0];
+                var lon = coords[1];
+                var p = new google.maps.LatLng(lat, lon);
+                points.push(p);
+                lats.push(lat);
+                lons.push(lon);
+                tmp_marker.push([lat, lon]);
+            }
+
+            var maxPoint =  new google.maps.LatLng(Math.max.apply(Math, lats), Math.max.apply(Math, lons));
+            var minPoint =  new google.maps.LatLng(Math.min.apply(Math, lats), Math.min.apply(Math, lons));
+            boundsArray.push([tr_id+"_max", maxPoint],[tr_id+"_min", minPoint]);
+
+            var poly = new google.maps.Polyline({
+                path: points,
+                strokeColor: "#4C1E6D",
+                strokeOpacity: .7,
+                strokeWeight: 4
+            });
+
+            poly.setMap(map);
+
+//            google.maps.event.addListener(poly, 'mouseover', function(event) {
+//                $('#current-info').html(tr_title);
+//                poly.setOptions({
+//                    strokeColor: "red",
+//                    strokeWeight: 6
+//                });
+//
+//            });
+//            google.maps.event.addListener(poly, 'mouseout', function(event) {
+//                $('#current-info').html("");
+//                poly.setOptions({
+//                    strokeColor: "green",
+//                    strokeWeight: 4
+//                });
+//
+//            });
+//            google.maps.event.addListener(poly, 'click', function(event) {
+//                polyArray[tr_id].setMap(null);
+//                polyArray[tr_id] = 0;
+//                reduceBounds([tr_id+"_max",tr_id+"_min"]);
+//                boundsAdjust(boundsArray);
+//            });
+
+
+                boundsAdjust(boundsArray);
+            }
 
         function readGpxFile(file){
             return jQuery.ajax({
