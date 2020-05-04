@@ -1,5 +1,7 @@
 <?php
 
+global $wpdb;
+
 if(!defined('MAZBIKE_THEME_DIR'))
     define('MAZBIKE_THEME_DIR', get_theme_root().'/'.get_template().'/');
 if(!defined('MAZBIKE_THEME_URL'))
@@ -340,3 +342,86 @@ function remove_warsaw_from_mazowsze( $query ) {
 //    $query->query_vars['tax_query'] = $query->tax_query->queries;
 //}
 //add_action( 'pre_get_posts', 'my_tax_query' );
+
+
+add_action( 'rest_api_init', function () {
+    register_rest_route( 'mapa', 'all_routes', array(
+        'methods' => 'GET',
+        'callback' => 'my_awesome_func',
+    ) );
+} );
+
+function my_awesome_func( $data ) {
+
+    global $wpdb;
+    global $post;
+
+    $routes_query = new WP_Query(array(
+        'post_type' => 'route',
+        'posts_per_page'   => -1,
+//        'offset' => 20,
+        'post_status' => 'publish',
+        'post_status' => array('publish'),
+        'meta_query' => array(
+            array(
+                'key' => 'route_path',
+            ))
+    ));
+
+    if ( empty( $routes_query ) ) {
+        return null;
+    }
+
+    //trip
+     MB_Relationships_API::each_connected(array(
+                'id' => 'trips_to_routs',
+                'to' => $routes_query->posts,
+                'property' => 'trip',
+
+            ));
+
+    if ( $routes_query->have_posts() ) {
+        while ( $routes_query->have_posts() ) {
+            $routes_query->the_post();
+
+            $queryA = $wpdb->get_var( $wpdb->prepare( "SELECT meta_value from wp_postmeta where post_id = %d and meta_key = 'route_path'", get_the_ID() ) );
+            $post->meta_path = $queryA;
+            $routeId = get_the_ID();
+
+                $tripYear = date("Y");
+                $tripLink = "#";
+                $tripTitle = "";
+
+            foreach ( $post->trip as $trip ){
+                $tripYear = get_the_date('Y',$trip );
+                $tripLink = get_permalink($trip);
+                $tripTitle = get_the_title($trip);
+
+            }
+
+            if(!get_post_meta($routeId, 'planowana', true)) {
+                $routes[] = [
+                    'route_id' => $routeId,
+                    'route_id2' => get_the_ID(),
+                    'route_title' => get_the_title(),
+                    'route_file' => get_post_meta($routeId, 'gpx', true),
+                    'dystans' => get_post_meta($routeId, 'dystans', true),
+                    'route_is_planned' => get_post_meta($routeId, 'planowana', true),
+                    'route_year_diff' => date("Y") - $tripYear,
+                    'trip_title' => $tripTitle,
+                    'trip_link' => $tripLink,
+                    //        'meta' => get_post_meta('7121')
+                    'meta_path' => json_decode($post->meta_path)
+                ];
+            }
+
+
+
+
+        }
+    } else {
+        // no posts found
+    }
+
+  return  json_encode($routes);
+}

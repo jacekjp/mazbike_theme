@@ -57,8 +57,13 @@
 
                     <li id="location-<?php the_ID(); ?>" <?php post_class(($i % 3 == 1) ? 'large' : 'small'); ?>>
                         <a href="<?php the_permalink(); ?>">
+
+                            <?php
+                            foreach($post->connected as $route) break; // break loop after first iteration
+                            ?>
+
                             <div style="background-image: url(<?php the_post_thumbnail_url(($i % 3 == 1) ? 'main-large' : 'main-small'); ?>);" class="">
-                                <p class="title"><?php the_title(); ?> | <span class="no-wrap"><?php echo  get_post_meta($post->connected[0]->ID, 'dystans', true); ?> km |</span> <span class="no-wrap"><?php the_date(); ?></span></p>
+                                <p class="title"><?php the_title(); ?> | <span class="no-wrap"><?php echo  get_post_meta($route->ID, 'dystans', true); ?> km |</span> <span class="no-wrap"><?php the_date(); ?></span></p>
                             </div>
                         </a>
                     </li>

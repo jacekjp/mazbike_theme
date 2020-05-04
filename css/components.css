@@ -19,7 +19,7 @@ body.init *:not(#map) {
   background-size: cover;
   background-position: center;
   opacity: 1 !important;
-  transition: 2s;
+  /*transition: 2s;*/
 }
 hr {
   width: 75%;
