@@ -12,8 +12,13 @@ window.onload = function () {
 //            // Animation complete.
 //        });
 //    })(j);
-    document.querySelector('body').classList.remove('init');
-    document.querySelector('#loading').style.display = "none";
+//    document.querySelector('body').classList.remove('init');
+//    document.querySelector('#loading').style.display = "none";
+
+    jQuery('#loading').animate({'left':'120%'},1000, function(){
+        jQuery(this).css('display', 'none');
+        document.querySelector('body').classList.remove('init');
+    });
 
 };
 

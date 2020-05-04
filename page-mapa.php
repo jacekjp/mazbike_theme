@@ -72,79 +72,34 @@ function initMap() {
 
     });
 
-
-
     showMazowsze();
 
-    <?php
 
-     $query = new WP_Query(array(
-        'post_type' => 'route',
-        'posts_per_page'   => -1,
-        'post_status' => 'publish'
-//    'post_status' => array('publish', 'pending', 'draft', 'auto-draft')
-));
+        jQuery.ajax({
+            async: true,
+            type: "GET",
+            url: "/wp-json/mapa/all_routes",
+            dataType: "json",
+            success: function(fData){
+                var routes_data = JSON.parse(fData);
+                for (var i = 0; i < routes_data.length; i++) {
+                    setTimeout(function(i){
+                        drawTrackNew(routes_data[i]);
+                    }, 100, i);
 
- MB_Relationships_API::each_connected(array(
-            'id' => 'trips_to_routs',
-            'to' => $query->posts,
-            'property' => 'trip',
-        ));
-
-
-    $routes = array();
-
-   while ( $query->have_posts() ) : $query->the_post();
-
-        $routeId = get_the_ID();
-
-        $tripYear = date("Y");
-        $tripLink = "#";
-        $tripTitle = "";
-
-        foreach ( $post->trip as $post ) : setup_postdata( $post );
-
-          $tripYear = get_the_date('Y',$post );
-          $tripLink = get_permalink($post);
-          $tripTitle = get_the_title($post);
-
-        endforeach;
-        wp_reset_postdata(); // Set $post back to original post
+                }
+            }
+        });
 
 
 
-    $routes[] = [
-        'route_id' => $routeId,
-        'route_title' => get_the_title(),
-        'route_file' => get_post_meta($routeId, 'gpx', true),
-        'route_is_planned' => get_post_meta($routeId, 'planowana', true),
-        'route_year_diff' => date("Y") - $tripYear,
-        'trip_title' => $tripTitle,
-        'trip_link' => $tripLink,
-        'meta' => get_post_meta($routeId)
-    ];
-
-
-    endwhile;
-
-    $js_routes = json_encode($routes);
-    wp_reset_query();
-         ?>
-
-    var routes = <?php echo $js_routes ?>;
-
-
-    for (var i = 0; i < routes.length; i++) {
-//        readGpxFile(routes[i]);
-        drawTrackNew(routes[i]);
-    }
 }
 function drawTrackNew(route){
-    if(route.meta.route_path == null) {
+    if(route.meta_path == null) {
         return;
     }
 
-    var geoData = JSON.parse(route.meta.route_path[0]);
+    var geoData = route.meta_path;
     var points = [];
     var tmp_marker = [];
 
@@ -160,7 +115,6 @@ function drawTrackNew(route){
     var lons = [];
     for (var i = 0; i < geoData.geometry.coordinates[0].length; i++) {
         var coords = geoData.geometry.coordinates[0][i];
-
         var lat = coords[0];
         var lon = coords[1];
         var p = new google.maps.LatLng(lat, lon);
@@ -232,7 +186,7 @@ function drawTrackNew(route){
 
         });
 
-        var infowindowstring = "<div style='color:#792;padding:5px;'><a href='" + route.trip_link + "'>" + route.trip_title + " | " + route.meta.dystans + "km</a></div>";
+        var infowindowstring = "<div style='color:#792;padding:5px;'><a href='" + route.trip_link + "'>" + route.trip_title + " | " + route.dystans + "km</a></div>";
 
         google.maps.event.addListener(poly, 'click', function(event) {
 
